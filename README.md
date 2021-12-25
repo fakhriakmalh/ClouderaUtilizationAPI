@@ -1,5 +1,5 @@
 # ClouderaUtilizationAPI
-what i've done in my current job to get cloudera utilization automatically with timerange as the input parameter
+Getting cloudera utilization automatically with timerange as the input parameter
 
 Example script to run the script
 
