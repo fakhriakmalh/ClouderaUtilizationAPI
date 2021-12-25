@@ -1,0 +1,409 @@
+{
+  "items" : [ {
+    "timeSeries" : [ {
+      "metadata" : {
+        "metricName" : "allocated_vcores_cumulative",
+        "entityName" : "root (YARN (MR2 Included))",
+        "startTime" : "2021-12-14T17:00:00.000Z",
+        "endTime" : "2021-12-15T17:00:00.000Z",
+        "attributes" : {
+          "serviceType" : "YARN",
+          "clusterDisplayName" : "DRCBIGHDPCL2",
+          "queueName" : "root",
+          "entityName" : "yarn:root",
+          "clusterName" : "cluster",
+          "active" : "true",
+          "schedulerType" : "CAPACITY",
+          "serviceDisplayName" : "YARN (MR2 Included)",
+          "serviceName" : "yarn",
+          "category" : "YARN_POOL",
+          "version" : "CDH 7.1.4",
+          "poolName" : "root"
+        },
+        "unitNumerators" : [ "vcores" ],
+        "unitDenominators" : [ ],
+        "expression" : "SELECT allocated_vcores_cumulative WHERE entityName = \"yarn:root\" AND category = YARN_POOL",
+        "metricCollectionFrequencyMs" : 60000,
+        "rollupUsed" : "HOURLY"
+      },
+      "data" : [ {
+        "timestamp" : "2021-12-14T17:00:00.000Z",
+        "value" : 342.23333333333335,
+        "type" : "SAMPLE",
+        "aggregateStatistics" : {
+          "sampleTime" : "2021-12-14T16:59:48.000Z",
+          "sampleValue" : 156.0,
+          "count" : 60,
+          "min" : 156.0,
+          "minTime" : "2021-12-14T16:59:48.000Z",
+          "max" : 876.0,
+          "maxTime" : "2021-12-14T16:00:15.258Z",
+          "mean" : 342.23333333333335,
+          "stdDev" : 128.03380997679923
+        }
+      }, {
+        "timestamp" : "2021-12-14T18:00:00.000Z",
+        "value" : 287.20338983050846,
+        "type" : "SAMPLE",
+        "aggregateStatistics" : {
+          "sampleTime" : "2021-12-14T17:59:16.004Z",
+          "sampleValue" : 206.0,
+          "count" : 59,
+          "min" : 158.0,
+          "minTime" : "2021-12-14T17:57:15.998Z",
+          "max" : 657.0,
+          "maxTime" : "2021-12-14T17:01:48.145Z",
+          "mean" : 287.20338983050846,
+          "stdDev" : 89.61676637715254
+        }
+      }, {
+        "timestamp" : "2021-12-14T19:00:00.000Z",
+        "value" : 198.15,
+        "type" : "SAMPLE",
+        "aggregateStatistics" : {
+          "sampleTime" : "2021-12-14T18:59:50.016Z",
+          "sampleValue" : 142.0,
+          "count" : 60,
+          "min" : 142.0,
+          "minTime" : "2021-12-14T18:46:39.709Z",
+          "max" : 501.0,
+          "maxTime" : "2021-12-14T18:49:49.732Z",
+          "mean" : 198.15,
+          "stdDev" : 69.9277653931638
+        }
+      }, {
+        "timestamp" : "2021-12-14T20:00:00.000Z",
+        "value" : 152.83050847457628,
+        "type" : "SAMPLE",
+        "aggregateStatistics" : {
+          "sampleTime" : "2021-12-14T19:59:11.429Z",
+          "sampleValue" : 145.0,
+          "count" : 59,
+          "min" : 138.0,
+          "minTime" : "2021-12-14T19:41:10.990Z",
+          "max" : 235.0,
+          "maxTime" : "2021-12-14T19:32:00.968Z",
+          "mean" : 152.83050847457628,
+          "stdDev" : 13.473028666975136
+        }
+      }, {
+        "timestamp" : "2021-12-14T21:00:00.000Z",
+        "value" : 143.53333333333333,
+        "type" : "SAMPLE",
+        "aggregateStatistics" : {
+          "sampleTime" : "2021-12-14T20:59:49.232Z",
+          "sampleValue" : 146.0,
+          "count" : 60,
+          "min" : 135.0,
+          "minTime" : "2021-12-14T20:06:11.525Z",
+          "max" : 160.0,
+          "maxTime" : "2021-12-14T20:20:16.623Z",
+          "mean" : 143.53333333333333,
+          "stdDev" : 7.268382112346145
+        }
+      }, {
+        "timestamp" : "2021-12-14T22:00:00.000Z",
+        "value" : 137.89830508474577,
+        "type" : "SAMPLE",
+        "aggregateStatistics" : {
+          "sampleTime" : "2021-12-14T21:59:16.644Z",
+          "sampleValue" : 120.0,
+          "count" : 59,
+          "min" : 120.0,
+          "minTime" : "2021-12-14T21:56:16.630Z",
+          "max" : 192.0,
+          "maxTime" : "2021-12-14T21:42:11.048Z",
+          "mean" : 137.89830508474577,
+          "stdDev" : 11.082286137943269
+        }
+      }, {
+        "timestamp" : "2021-12-14T23:00:00.000Z",
+        "value" : 125.16666666666667,
+        "type" : "SAMPLE",
+        "aggregateStatistics" : {
+          "sampleTime" : "2021-12-14T22:59:31.312Z",
+          "sampleValue" : 120.0,
+          "count" : 60,
+          "min" : 119.0,
+          "minTime" : "2021-12-14T22:06:16.722Z",
+          "max" : 153.0,
+          "maxTime" : "2021-12-14T22:31:20.512Z",
+          "mean" : 125.16666666666667,
+          "stdDev" : 6.654084171258437
+        }
+      }, {
+        "timestamp" : "2021-12-15T00:00:00.000Z",
+        "value" : 159.79661016949152,
+        "type" : "SAMPLE",
+        "aggregateStatistics" : {
+          "sampleTime" : "2021-12-14T23:59:18.086Z",
+          "sampleValue" : 120.0,
+          "count" : 59,
+          "min" : 119.0,
+          "minTime" : "2021-12-14T23:15:46.625Z",
+          "max" : 594.0,
+          "maxTime" : "2021-12-14T23:01:31.323Z",
+          "mean" : 159.79661016949152,
+          "stdDev" : 95.01357065704134
+        }
+      }, {
+        "timestamp" : "2021-12-15T01:00:00.000Z",
+        "value" : 164.51666666666668,
+        "type" : "SAMPLE",
+        "aggregateStatistics" : {
+          "sampleTime" : "2021-12-15T00:59:35.441Z",
+          "sampleValue" : 358.0,
+          "count" : 60,
+          "min" : 120.0,
+          "minTime" : "2021-12-15T00:14:18.374Z",
+          "max" : 358.0,
+          "maxTime" : "2021-12-15T00:59:35.441Z",
+          "mean" : 164.51666666666668,
+          "stdDev" : 50.50138164468967
+        }
+      }, {
+        "timestamp" : "2021-12-15T02:00:00.000Z",
+        "value" : 335.77966101694915,
+        "type" : "SAMPLE",
+        "aggregateStatistics" : {
+          "sampleTime" : "2021-12-15T01:59:03.989Z",
+          "sampleValue" : 250.0,
+          "count" : 59,
+          "min" : 199.0,
+          "minTime" : "2021-12-15T01:47:57.720Z",
+          "max" : 677.0,
+          "maxTime" : "2021-12-15T01:01:35.674Z",
+          "mean" : 335.77966101694915,
+          "stdDev" : 115.64274173991419
+        }
+      }, {
+        "timestamp" : "2021-12-15T03:00:00.000Z",
+        "value" : 706.6833333333333,
+        "type" : "SAMPLE",
+        "aggregateStatistics" : {
+          "sampleTime" : "2021-12-15T02:59:28.905Z",
+          "sampleValue" : 498.0,
+          "count" : 60,
+          "min" : 160.0,
+          "minTime" : "2021-12-15T02:05:04.929Z",
+          "max" : 1380.0,
+          "maxTime" : "2021-12-15T02:53:23.639Z",
+          "mean" : 706.6833333333333,
+          "stdDev" : 302.63002481727415
+        }
+      }, {
+        "timestamp" : "2021-12-15T04:00:00.000Z",
+        "value" : 510.93220338983053,
+        "type" : "SAMPLE",
+        "aggregateStatistics" : {
+          "sampleTime" : "2021-12-15T03:59:03.539Z",
+          "sampleValue" : 632.0,
+          "count" : 59,
+          "min" : 237.0,
+          "minTime" : "2021-12-15T03:44:57.437Z",
+          "max" : 968.0,
+          "maxTime" : "2021-12-15T03:22:44.942Z",
+          "mean" : 510.93220338983053,
+          "stdDev" : 168.3084057981144
+        }
+      }, {
+        "timestamp" : "2021-12-15T05:00:00.000Z",
+        "value" : 468.28333333333336,
+        "type" : "SAMPLE",
+        "aggregateStatistics" : {
+          "sampleTime" : "2021-12-15T04:59:42.160Z",
+          "sampleValue" : 455.0,
+          "count" : 60,
+          "min" : 192.0,
+          "minTime" : "2021-12-15T04:47:35.982Z",
+          "max" : 1102.0,
+          "maxTime" : "2021-12-15T04:33:30.497Z",
+          "mean" : 468.28333333333336,
+          "stdDev" : 179.09897762218168
+        }
+      }, {
+        "timestamp" : "2021-12-15T06:00:00.000Z",
+        "value" : 369.77966101694915,
+        "type" : "SAMPLE",
+        "aggregateStatistics" : {
+          "sampleTime" : "2021-12-15T05:59:40.587Z",
+          "sampleValue" : 169.0,
+          "count" : 59,
+          "min" : 136.0,
+          "minTime" : "2021-12-15T05:47:25.307Z",
+          "max" : 1353.0,
+          "maxTime" : "2021-12-15T05:32:13.859Z",
+          "mean" : 369.77966101694915,
+          "stdDev" : 222.89545003915845
+        }
+      }, {
+        "timestamp" : "2021-12-15T07:00:00.000Z",
+        "value" : 292.45762711864404,
+        "type" : "SAMPLE",
+        "aggregateStatistics" : {
+          "sampleTime" : "2021-12-15T06:59:13.703Z",
+          "sampleValue" : 473.0,
+          "count" : 59,
+          "min" : 145.0,
+          "minTime" : "2021-12-15T06:07:45.873Z",
+          "max" : 692.0,
+          "maxTime" : "2021-12-15T06:42:02.768Z",
+          "mean" : 292.45762711864404,
+          "stdDev" : 121.56186477134246
+        }
+      }, {
+        "timestamp" : "2021-12-15T08:00:00.000Z",
+        "value" : 554.4166666666666,
+        "type" : "SAMPLE",
+        "aggregateStatistics" : {
+          "sampleTime" : "2021-12-15T07:59:35.684Z",
+          "sampleValue" : 705.0,
+          "count" : 60,
+          "min" : 212.0,
+          "minTime" : "2021-12-15T07:07:13.959Z",
+          "max" : 1161.0,
+          "maxTime" : "2021-12-15T07:32:20.057Z",
+          "mean" : 554.4166666666666,
+          "stdDev" : 188.76290317702575
+        }
+      }, {
+        "timestamp" : "2021-12-15T09:00:00.000Z",
+        "value" : 884.75,
+        "type" : "SAMPLE",
+        "aggregateStatistics" : {
+          "sampleTime" : "2021-12-15T08:59:48.077Z",
+          "sampleValue" : 975.0,
+          "count" : 60,
+          "min" : 489.0,
+          "minTime" : "2021-12-15T08:26:37.008Z",
+          "max" : 1328.0,
+          "maxTime" : "2021-12-15T08:44:42.494Z",
+          "mean" : 884.75,
+          "stdDev" : 179.61943054833597
+        }
+      }, {
+        "timestamp" : "2021-12-15T10:00:00.000Z",
+        "value" : 921.5593220338983,
+        "type" : "SAMPLE",
+        "aggregateStatistics" : {
+          "sampleTime" : "2021-12-15T09:59:19.510Z",
+          "sampleValue" : 875.0,
+          "count" : 59,
+          "min" : 685.0,
+          "minTime" : "2021-12-15T09:00:48.079Z",
+          "max" : 1321.0,
+          "maxTime" : "2021-12-15T09:13:53.262Z",
+          "mean" : 921.5593220338983,
+          "stdDev" : 142.9448014018289
+        }
+      }, {
+        "timestamp" : "2021-12-15T11:00:00.000Z",
+        "value" : 940.1666666666666,
+        "type" : "SAMPLE",
+        "aggregateStatistics" : {
+          "sampleTime" : "2021-12-15T10:59:22.427Z",
+          "sampleValue" : 697.0,
+          "count" : 60,
+          "min" : 613.0,
+          "minTime" : "2021-12-15T10:57:22.075Z",
+          "max" : 1379.0,
+          "maxTime" : "2021-12-15T10:02:19.964Z",
+          "mean" : 940.1666666666666,
+          "stdDev" : 157.89635805491415
+        }
+      }, {
+        "timestamp" : "2021-12-15T12:00:00.000Z",
+        "value" : 813.8166666666667,
+        "type" : "SAMPLE",
+        "aggregateStatistics" : {
+          "sampleTime" : "2021-12-15T11:59:35.118Z",
+          "sampleValue" : 821.0,
+          "count" : 60,
+          "min" : 535.0,
+          "minTime" : "2021-12-15T11:04:22.679Z",
+          "max" : 1321.0,
+          "maxTime" : "2021-12-15T11:53:35.069Z",
+          "mean" : 813.8166666666667,
+          "stdDev" : 177.62677417538944
+        }
+      }, {
+        "timestamp" : "2021-12-15T13:00:00.000Z",
+        "value" : 945.9491525423729,
+        "type" : "SAMPLE",
+        "aggregateStatistics" : {
+          "sampleTime" : "2021-12-15T12:59:21.184Z",
+          "sampleValue" : 900.0,
+          "count" : 59,
+          "min" : 761.0,
+          "minTime" : "2021-12-15T12:56:20.967Z",
+          "max" : 1395.0,
+          "maxTime" : "2021-12-15T12:23:36.432Z",
+          "mean" : 945.9491525423729,
+          "stdDev" : 112.26468473622775
+        }
+      }, {
+        "timestamp" : "2021-12-15T14:00:00.000Z",
+        "value" : 963.7333333333333,
+        "type" : "SAMPLE",
+        "aggregateStatistics" : {
+          "sampleTime" : "2021-12-15T13:59:59.351Z",
+          "sampleValue" : 991.0,
+          "count" : 60,
+          "min" : 727.0,
+          "minTime" : "2021-12-15T13:56:59.255Z",
+          "max" : 1441.0,
+          "maxTime" : "2021-12-15T13:52:54.038Z",
+          "mean" : 963.7333333333333,
+          "stdDev" : 118.98794507615605
+        }
+      }, {
+        "timestamp" : "2021-12-15T15:00:00.000Z",
+        "value" : 975.1694915254237,
+        "type" : "SAMPLE",
+        "aggregateStatistics" : {
+          "sampleTime" : "2021-12-15T14:59:32.306Z",
+          "sampleValue" : 832.0,
+          "count" : 59,
+          "min" : 800.0,
+          "minTime" : "2021-12-15T14:03:59.478Z",
+          "max" : 1373.0,
+          "maxTime" : "2021-12-15T14:52:27.247Z",
+          "mean" : 975.1694915254237,
+          "stdDev" : 120.65741650074207
+        }
+      }, {
+        "timestamp" : "2021-12-15T16:00:00.000Z",
+        "value" : 472.3333333333333,
+        "type" : "SAMPLE",
+        "aggregateStatistics" : {
+          "sampleTime" : "2021-12-15T15:59:48.828Z",
+          "sampleValue" : 221.0,
+          "count" : 60,
+          "min" : 135.0,
+          "minTime" : "2021-12-15T15:53:43.568Z",
+          "max" : 1217.0,
+          "maxTime" : "2021-12-15T15:02:32.315Z",
+          "mean" : 472.3333333333333,
+          "stdDev" : 319.78799474326877
+        }
+      }, {
+        "timestamp" : "2021-12-15T17:00:00.000Z",
+        "value" : 213.11864406779662,
+        "type" : "SAMPLE",
+        "aggregateStatistics" : {
+          "sampleTime" : "2021-12-15T16:59:15.930Z",
+          "sampleValue" : 128.0,
+          "count" : 59,
+          "min" : 123.0,
+          "minTime" : "2021-12-15T16:08:54.542Z",
+          "max" : 470.0,
+          "maxTime" : "2021-12-15T16:02:48.973Z",
+          "mean" : 213.11864406779662,
+          "stdDev" : 86.94986362460061
+        }
+      } ]
+    } ],
+    "warnings" : [ ],
+    "timeSeriesQuery" : "SELECT allocated_vcores_cumulative where category=YARN_POOL and serviceName=\"yarn\" and queueName=root and clusterName=cluster"
+  } ]
+}

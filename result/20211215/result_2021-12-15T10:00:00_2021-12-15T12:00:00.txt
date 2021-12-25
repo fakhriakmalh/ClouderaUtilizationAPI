@@ -1,0 +1,19 @@
+Dear All,
+
+CPU dan memory usage Rabu, 15 Desember 2021 pukul 10:00 hingga pukul 12:00 terlampir
+{'average_impalaCpuUsage': '19.39 %', 'average_cpuVcore': '489.43 Vcore', 'average_cpuUsage': '53.03 %', 'average_memYARN': '939.1 GB', 'average_memImpalaExec': '55.26 GB', 'average_memImpalaCoord': '56.38 GB'}
+{'max_memYARN': '1.8 TB', 'max_cpuUsage': '99.09 %', 'max_impalaCpuUsage': '48.9 %', 'max_cpuVcore': '1102.0 Vcore', 'max_memImpalaCoord': '61.98 GB', 'max_memImpalaExec': '70.65 GB'}
+- Impala CPU Usage avg 19.39 % on Peak 48.9 %
+
+Memory Usage
+- Impala Coordinator Usage avg 56.38 GB on Peak 61.98 GB
+
+CPU Usage
+- Worker node CPU  Usage avg 53.03 % on Peak 99.09 %
+- YARN Memory Usage avg 939.1 GB on Peak 1.8 TB
+- Impala Executor Usage avg 55.26 GB on Peak 70.65 GB
+- YARN vCore Usage avg 489.43 Vcore on Peak 1102.0 Vcore
+
+Best Regards & Stay Healthy,
+Shell Script & Python Script
+

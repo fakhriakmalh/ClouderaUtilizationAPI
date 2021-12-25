@@ -1,0 +1,17 @@
+Dear All,
+
+CPU dan memory usage Senin, 20 Desember 2021 pukul 10:00 hingga pukul 14:00 terlampir
+
+CPU Usage
+- Worker node CPU Usage avg 34.68 % on Peak 91.75 %
+- YARN vCore Usage avg 300.3 Vcore on Peak 1023.0 Vcore
+- Impala CPU Usage avg 14.74 % on Peak 57.66 %
+
+Memory Usage
+- Impala Coordinator Usage avg 52.85 GB on Peak 55.27 GB
+- Impala Executor Usage avg 8.93 GB on Peak 17.7 GB
+- YARN Memory Usage avg 485.7 GB on Peak 2.3 TB
+
+Best Regards & Stay Healthy,
+[Shell Script & Python Script]
+

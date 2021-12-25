@@ -1,0 +1,817 @@
+{
+  "items" : [ {
+    "timeSeries" : [ {
+      "metadata" : {
+        "metricName" : "mem_rss",
+        "entityName" : "Impala Daemon (drcbighdp51.corp.bi.go.id)",
+        "startTime" : "2021-12-14T17:00:00.000Z",
+        "endTime" : "2021-12-15T17:00:00.000Z",
+        "attributes" : {
+          "serviceType" : "IMPALA",
+          "clusterDisplayName" : "DRCBIGHDPCL2",
+          "hostId" : "1c8660cf-32e2-4ebb-96fa-8d3278b1a92c",
+          "active" : "true",
+          "serviceDisplayName" : "Impala",
+          "serviceName" : "impala",
+          "roleType" : "IMPALAD",
+          "version" : "CDH 7.1.4",
+          "hostname" : "drcbighdp51.corp.bi.go.id",
+          "entityName" : "impala-IMPALAD-cba93097f9d91d8cb55cf12a6125b775",
+          "clusterName" : "cluster",
+          "roleName" : "impala-IMPALAD-cba93097f9d91d8cb55cf12a6125b775",
+          "roleConfigGroup" : "Coordinators",
+          "category" : "ROLE",
+          "rackId" : "/default"
+        },
+        "unitNumerators" : [ "bytes" ],
+        "unitDenominators" : [ ],
+        "expression" : "SELECT mem_rss WHERE entityName = \"impala-IMPALAD-cba93097f9d91d8cb55cf12a6125b775\" AND category = ROLE",
+        "metricCollectionFrequencyMs" : 60000,
+        "rollupUsed" : "HOURLY"
+      },
+      "data" : [ {
+        "timestamp" : "2021-12-14T17:00:00.000Z",
+        "value" : 5.99588665344E10,
+        "type" : "SAMPLE",
+        "aggregateStatistics" : {
+          "sampleTime" : "2021-12-14T16:59:51.000Z",
+          "sampleValue" : 5.926600704E10,
+          "count" : 60,
+          "min" : 5.92525312E10,
+          "minTime" : "2021-12-14T16:58:51.000Z",
+          "max" : 6.1113520128E10,
+          "maxTime" : "2021-12-14T16:23:51.000Z",
+          "mean" : 5.99588665344E10,
+          "stdDev" : 3.339427183087621E8
+        }
+      }, {
+        "timestamp" : "2021-12-14T18:00:00.000Z",
+        "value" : 5.927555058346667E10,
+        "type" : "SAMPLE",
+        "aggregateStatistics" : {
+          "sampleTime" : "2021-12-14T17:59:51.000Z",
+          "sampleValue" : 5.9141308416E10,
+          "count" : 60,
+          "min" : 5.9133231104E10,
+          "minTime" : "2021-12-14T17:42:51.000Z",
+          "max" : 5.986039808E10,
+          "maxTime" : "2021-12-14T17:11:51.000Z",
+          "mean" : 5.927555058346667E10,
+          "stdDev" : 1.3118277145733707E8
+        }
+      }, {
+        "timestamp" : "2021-12-14T19:00:00.000Z",
+        "value" : 5.9070380305066666E10,
+        "type" : "SAMPLE",
+        "aggregateStatistics" : {
+          "sampleTime" : "2021-12-14T18:59:51.000Z",
+          "sampleValue" : 5.8955505664E10,
+          "count" : 60,
+          "min" : 5.8955505664E10,
+          "minTime" : "2021-12-14T18:59:51.000Z",
+          "max" : 5.9178442752E10,
+          "maxTime" : "2021-12-14T18:11:51.000Z",
+          "mean" : 5.9070380305066666E10,
+          "stdDev" : 5.161790740327617E7
+        }
+      }, {
+        "timestamp" : "2021-12-14T20:00:00.000Z",
+        "value" : 5.8913356526933334E10,
+        "type" : "SAMPLE",
+        "aggregateStatistics" : {
+          "sampleTime" : "2021-12-14T19:59:51.000Z",
+          "sampleValue" : 5.8883477504E10,
+          "count" : 60,
+          "min" : 5.8881499136E10,
+          "minTime" : "2021-12-14T19:58:51.000Z",
+          "max" : 5.8984173568E10,
+          "maxTime" : "2021-12-14T19:03:51.000Z",
+          "mean" : 5.8913356526933334E10,
+          "stdDev" : 3.0233326408349417E7
+        }
+      }, {
+        "timestamp" : "2021-12-14T21:00:00.000Z",
+        "value" : 5.89172723712E10,
+        "type" : "SAMPLE",
+        "aggregateStatistics" : {
+          "sampleTime" : "2021-12-14T20:59:51.000Z",
+          "sampleValue" : 5.8895712256E10,
+          "count" : 60,
+          "min" : 5.888526336E10,
+          "minTime" : "2021-12-14T20:55:51.000Z",
+          "max" : 5.8964160512E10,
+          "maxTime" : "2021-12-14T20:30:51.000Z",
+          "mean" : 5.89172723712E10,
+          "stdDev" : 1.5883906098660154E7
+        }
+      }, {
+        "timestamp" : "2021-12-14T22:00:00.000Z",
+        "value" : 5.888330806613333E10,
+        "type" : "SAMPLE",
+        "aggregateStatistics" : {
+          "sampleTime" : "2021-12-14T21:59:51.000Z",
+          "sampleValue" : 5.8838319104E10,
+          "count" : 60,
+          "min" : 5.8837311488E10,
+          "minTime" : "2021-12-14T21:58:51.000Z",
+          "max" : 5.8970710016E10,
+          "maxTime" : "2021-12-14T21:01:51.000Z",
+          "mean" : 5.888330806613333E10,
+          "stdDev" : 2.095853471837678E7
+        }
+      }, {
+        "timestamp" : "2021-12-14T23:00:00.000Z",
+        "value" : 5.883679184213333E10,
+        "type" : "SAMPLE",
+        "aggregateStatistics" : {
+          "sampleTime" : "2021-12-14T22:59:51.000Z",
+          "sampleValue" : 5.8804375552E10,
+          "count" : 60,
+          "min" : 5.8804375552E10,
+          "minTime" : "2021-12-14T22:59:51.000Z",
+          "max" : 5.9512451072E10,
+          "maxTime" : "2021-12-14T22:40:51.000Z",
+          "mean" : 5.883679184213333E10,
+          "stdDev" : 8.905212004811184E7
+        }
+      }, {
+        "timestamp" : "2021-12-15T00:00:00.000Z",
+        "value" : 5.880690988373333E10,
+        "type" : "SAMPLE",
+        "aggregateStatistics" : {
+          "sampleTime" : "2021-12-14T23:59:51.000Z",
+          "sampleValue" : 5.877497856E10,
+          "count" : 60,
+          "min" : 5.8768625664E10,
+          "minTime" : "2021-12-14T23:54:51.000Z",
+          "max" : 5.9354451968E10,
+          "maxTime" : "2021-12-14T23:52:51.000Z",
+          "mean" : 5.880690988373333E10,
+          "stdDev" : 8.419996557693852E7
+        }
+      }, {
+        "timestamp" : "2021-12-15T01:00:00.000Z",
+        "value" : 5.9329641472E10,
+        "type" : "SAMPLE",
+        "aggregateStatistics" : {
+          "sampleTime" : "2021-12-15T00:59:51.000Z",
+          "sampleValue" : 5.9360387072E10,
+          "count" : 60,
+          "min" : 5.8780266496E10,
+          "minTime" : "2021-12-15T00:00:51.000Z",
+          "max" : 6.051751936E10,
+          "maxTime" : "2021-12-15T00:41:51.000Z",
+          "mean" : 5.9329641472E10,
+          "stdDev" : 3.0816218354767287E8
+        }
+      }, {
+        "timestamp" : "2021-12-15T02:00:00.000Z",
+        "value" : 5.983762036053333E10,
+        "type" : "SAMPLE",
+        "aggregateStatistics" : {
+          "sampleTime" : "2021-12-15T01:59:51.000Z",
+          "sampleValue" : 5.979777024E10,
+          "count" : 60,
+          "min" : 5.9404947456E10,
+          "minTime" : "2021-12-15T01:05:51.000Z",
+          "max" : 6.15498752E10,
+          "maxTime" : "2021-12-15T01:44:51.000Z",
+          "mean" : 5.983762036053333E10,
+          "stdDev" : 4.0082394808926517E8
+        }
+      }, {
+        "timestamp" : "2021-12-15T03:00:00.000Z",
+        "value" : 6.034385708373333E10,
+        "type" : "SAMPLE",
+        "aggregateStatistics" : {
+          "sampleTime" : "2021-12-15T02:59:51.000Z",
+          "sampleValue" : 6.0202950656E10,
+          "count" : 60,
+          "min" : 5.9823587328E10,
+          "minTime" : "2021-12-15T02:09:52.000Z",
+          "max" : 6.2361350144E10,
+          "maxTime" : "2021-12-15T02:32:52.000Z",
+          "mean" : 6.034385708373333E10,
+          "stdDev" : 4.913555873514138E8
+        }
+      }, {
+        "timestamp" : "2021-12-15T04:00:00.000Z",
+        "value" : 6.082614060373333E10,
+        "type" : "SAMPLE",
+        "aggregateStatistics" : {
+          "sampleTime" : "2021-12-15T03:59:52.000Z",
+          "sampleValue" : 6.141806592E10,
+          "count" : 60,
+          "min" : 6.0153028608E10,
+          "minTime" : "2021-12-15T03:19:52.000Z",
+          "max" : 6.2565371904E10,
+          "maxTime" : "2021-12-15T03:52:52.000Z",
+          "mean" : 6.082614060373333E10,
+          "stdDev" : 5.439306426580374E8
+        }
+      }, {
+        "timestamp" : "2021-12-15T05:00:00.000Z",
+        "value" : 6.1335164654933334E10,
+        "type" : "SAMPLE",
+        "aggregateStatistics" : {
+          "sampleTime" : "2021-12-15T04:59:52.000Z",
+          "sampleValue" : 6.101604352E10,
+          "count" : 60,
+          "min" : 6.0709322752E10,
+          "minTime" : "2021-12-15T04:09:52.000Z",
+          "max" : 6.3378956288E10,
+          "maxTime" : "2021-12-15T04:34:52.000Z",
+          "mean" : 6.1335164654933334E10,
+          "stdDev" : 5.358327703419293E8
+        }
+      }, {
+        "timestamp" : "2021-12-15T06:00:00.000Z",
+        "value" : 6.112109684053333E10,
+        "type" : "SAMPLE",
+        "aggregateStatistics" : {
+          "sampleTime" : "2021-12-15T05:59:52.000Z",
+          "sampleValue" : 6.052788224E10,
+          "count" : 60,
+          "min" : 6.0520189952E10,
+          "minTime" : "2021-12-15T05:54:52.000Z",
+          "max" : 7.2257134592E10,
+          "maxTime" : "2021-12-15T05:32:52.000Z",
+          "mean" : 6.112109684053333E10,
+          "stdDev" : 1.4923717761658983E9
+        }
+      }, {
+        "timestamp" : "2021-12-15T07:00:00.000Z",
+        "value" : 6.0637036817066666E10,
+        "type" : "SAMPLE",
+        "aggregateStatistics" : {
+          "sampleTime" : "2021-12-15T06:59:52.000Z",
+          "sampleValue" : 6.0492910592E10,
+          "count" : 60,
+          "min" : 6.045149184E10,
+          "minTime" : "2021-12-15T06:55:52.000Z",
+          "max" : 6.150989824E10,
+          "maxTime" : "2021-12-15T06:11:52.000Z",
+          "mean" : 6.0637036817066666E10,
+          "stdDev" : 2.1160597745997733E8
+        }
+      }, {
+        "timestamp" : "2021-12-15T08:00:00.000Z",
+        "value" : 6.054697280853333E10,
+        "type" : "SAMPLE",
+        "aggregateStatistics" : {
+          "sampleTime" : "2021-12-15T07:59:52.000Z",
+          "sampleValue" : 6.2780674048E10,
+          "count" : 60,
+          "min" : 6.0270051328E10,
+          "minTime" : "2021-12-15T07:26:52.000Z",
+          "max" : 6.2780674048E10,
+          "maxTime" : "2021-12-15T07:59:52.000Z",
+          "mean" : 6.054697280853333E10,
+          "stdDev" : 3.671885522868201E8
+        }
+      }, {
+        "timestamp" : "2021-12-15T09:00:00.000Z",
+        "value" : 6.1507145386666664E10,
+        "type" : "SAMPLE",
+        "aggregateStatistics" : {
+          "sampleTime" : "2021-12-15T08:59:52.000Z",
+          "sampleValue" : 6.0719722496E10,
+          "count" : 60,
+          "min" : 6.0471160832E10,
+          "minTime" : "2021-12-15T08:00:52.000Z",
+          "max" : 8.3009052672E10,
+          "maxTime" : "2021-12-15T08:19:56.000Z",
+          "mean" : 6.1507145386666664E10,
+          "stdDev" : 2.96215859950649E9
+        }
+      }, {
+        "timestamp" : "2021-12-15T10:00:00.000Z",
+        "value" : 6.16159428608E10,
+        "type" : "SAMPLE",
+        "aggregateStatistics" : {
+          "sampleTime" : "2021-12-15T09:59:52.000Z",
+          "sampleValue" : 6.1286207488E10,
+          "count" : 60,
+          "min" : 6.0540043264E10,
+          "minTime" : "2021-12-15T09:32:52.000Z",
+          "max" : 8.0148615168E10,
+          "maxTime" : "2021-12-15T09:18:52.000Z",
+          "mean" : 6.16159428608E10,
+          "stdDev" : 2.702805115216693E9
+        }
+      }, {
+        "timestamp" : "2021-12-15T11:00:00.000Z",
+        "value" : 6.096179623253333E10,
+        "type" : "SAMPLE",
+        "aggregateStatistics" : {
+          "sampleTime" : "2021-12-15T10:59:52.000Z",
+          "sampleValue" : 6.0728373248E10,
+          "count" : 60,
+          "min" : 6.0541853696E10,
+          "minTime" : "2021-12-15T10:26:52.000Z",
+          "max" : 6.1782786048E10,
+          "maxTime" : "2021-12-15T10:10:52.000Z",
+          "mean" : 6.096179623253333E10,
+          "stdDev" : 3.401105029174571E8
+        }
+      }, {
+        "timestamp" : "2021-12-15T12:00:00.000Z",
+        "value" : 6.08434558976E10,
+        "type" : "SAMPLE",
+        "aggregateStatistics" : {
+          "sampleTime" : "2021-12-15T11:59:52.000Z",
+          "sampleValue" : 6.0913491968E10,
+          "count" : 60,
+          "min" : 6.0426305536E10,
+          "minTime" : "2021-12-15T11:19:52.000Z",
+          "max" : 6.1845999616E10,
+          "maxTime" : "2021-12-15T11:55:52.000Z",
+          "mean" : 6.08434558976E10,
+          "stdDev" : 2.916831926752623E8
+        }
+      }, {
+        "timestamp" : "2021-12-15T13:00:00.000Z",
+        "value" : 6.069536365226667E10,
+        "type" : "SAMPLE",
+        "aggregateStatistics" : {
+          "sampleTime" : "2021-12-15T12:59:52.000Z",
+          "sampleValue" : 6.056736768E10,
+          "count" : 60,
+          "min" : 6.0401348608E10,
+          "minTime" : "2021-12-15T12:39:52.000Z",
+          "max" : 6.1709160448E10,
+          "maxTime" : "2021-12-15T12:36:52.000Z",
+          "mean" : 6.069536365226667E10,
+          "stdDev" : 2.731851130258069E8
+        }
+      }, {
+        "timestamp" : "2021-12-15T14:00:00.000Z",
+        "value" : 6.0434974378666664E10,
+        "type" : "SAMPLE",
+        "aggregateStatistics" : {
+          "sampleTime" : "2021-12-15T13:59:52.000Z",
+          "sampleValue" : 5.9917901824E10,
+          "count" : 60,
+          "min" : 5.9874004992E10,
+          "minTime" : "2021-12-15T13:58:52.000Z",
+          "max" : 6.154244096E10,
+          "maxTime" : "2021-12-15T13:26:52.000Z",
+          "mean" : 6.0434974378666664E10,
+          "stdDev" : 4.426540196448099E8
+        }
+      }, {
+        "timestamp" : "2021-12-15T15:00:00.000Z",
+        "value" : 6.035807348053333E10,
+        "type" : "SAMPLE",
+        "aggregateStatistics" : {
+          "sampleTime" : "2021-12-15T14:59:52.000Z",
+          "sampleValue" : 6.0056829952E10,
+          "count" : 60,
+          "min" : 5.9888218112E10,
+          "minTime" : "2021-12-15T14:01:52.000Z",
+          "max" : 6.979971072E10,
+          "maxTime" : "2021-12-15T14:23:52.000Z",
+          "mean" : 6.035807348053333E10,
+          "stdDev" : 1.2772556063032892E9
+        }
+      }, {
+        "timestamp" : "2021-12-15T16:00:00.000Z",
+        "value" : 5.99905746944E10,
+        "type" : "SAMPLE",
+        "aggregateStatistics" : {
+          "sampleTime" : "2021-12-15T15:59:52.000Z",
+          "sampleValue" : 6.2824153088E10,
+          "count" : 60,
+          "min" : 5.9803787264E10,
+          "minTime" : "2021-12-15T15:46:52.000Z",
+          "max" : 6.2824153088E10,
+          "maxTime" : "2021-12-15T15:59:52.000Z",
+          "mean" : 5.99905746944E10,
+          "stdDev" : 4.076076483077003E8
+        }
+      }, {
+        "timestamp" : "2021-12-15T17:00:00.000Z",
+        "value" : 5.98632392704E10,
+        "type" : "SAMPLE",
+        "aggregateStatistics" : {
+          "sampleTime" : "2021-12-15T16:59:52.000Z",
+          "sampleValue" : 5.9802365952E10,
+          "count" : 60,
+          "min" : 5.9785089024E10,
+          "minTime" : "2021-12-15T16:57:52.000Z",
+          "max" : 6.0202696704E10,
+          "maxTime" : "2021-12-15T16:01:52.000Z",
+          "mean" : 5.98632392704E10,
+          "stdDev" : 8.644468411726074E7
+        }
+      } ]
+    }, {
+      "metadata" : {
+        "metricName" : "mem_rss",
+        "entityName" : "Impala Daemon (drcbighdp52.corp.bi.go.id)",
+        "startTime" : "2021-12-14T17:00:00.000Z",
+        "endTime" : "2021-12-15T17:00:00.000Z",
+        "attributes" : {
+          "serviceType" : "IMPALA",
+          "clusterDisplayName" : "DRCBIGHDPCL2",
+          "hostId" : "6fb46c2a-a79e-43dd-974d-229235f7b0ac",
+          "active" : "true",
+          "serviceDisplayName" : "Impala",
+          "serviceName" : "impala",
+          "roleType" : "IMPALAD",
+          "version" : "CDH 7.1.4",
+          "hostname" : "drcbighdp52.corp.bi.go.id",
+          "entityName" : "impala-IMPALAD-a27c82bb4396d70364f7bc85b390e0bd",
+          "clusterName" : "cluster",
+          "roleName" : "impala-IMPALAD-a27c82bb4396d70364f7bc85b390e0bd",
+          "roleConfigGroup" : "Coordinators",
+          "category" : "ROLE",
+          "rackId" : "/default"
+        },
+        "unitNumerators" : [ "bytes" ],
+        "unitDenominators" : [ ],
+        "expression" : "SELECT mem_rss WHERE entityName = \"impala-IMPALAD-a27c82bb4396d70364f7bc85b390e0bd\" AND category = ROLE",
+        "metricCollectionFrequencyMs" : 60000,
+        "rollupUsed" : "HOURLY"
+      },
+      "data" : [ {
+        "timestamp" : "2021-12-14T17:00:00.000Z",
+        "value" : 6.073391520426667E10,
+        "type" : "SAMPLE",
+        "aggregateStatistics" : {
+          "sampleTime" : "2021-12-14T16:59:47.000Z",
+          "sampleValue" : 6.071355392E10,
+          "count" : 60,
+          "min" : 6.0502798336E10,
+          "minTime" : "2021-12-14T16:17:47.000Z",
+          "max" : 6.1357088768E10,
+          "maxTime" : "2021-12-14T16:25:47.000Z",
+          "mean" : 6.073391520426667E10,
+          "stdDev" : 1.871247323952935E8
+        }
+      }, {
+        "timestamp" : "2021-12-14T18:00:00.000Z",
+        "value" : 6.07484014592E10,
+        "type" : "SAMPLE",
+        "aggregateStatistics" : {
+          "sampleTime" : "2021-12-14T17:59:47.000Z",
+          "sampleValue" : 6.0216037376E10,
+          "count" : 60,
+          "min" : 6.0216037376E10,
+          "minTime" : "2021-12-14T17:59:47.000Z",
+          "max" : 6.135668736E10,
+          "maxTime" : "2021-12-14T17:01:47.000Z",
+          "mean" : 6.07484014592E10,
+          "stdDev" : 1.629143639184937E8
+        }
+      }, {
+        "timestamp" : "2021-12-14T19:00:00.000Z",
+        "value" : 6.017972845226667E10,
+        "type" : "SAMPLE",
+        "aggregateStatistics" : {
+          "sampleTime" : "2021-12-14T18:59:47.000Z",
+          "sampleValue" : 6.0039901184E10,
+          "count" : 60,
+          "min" : 6.0039901184E10,
+          "minTime" : "2021-12-14T18:59:47.000Z",
+          "max" : 6.0341428224E10,
+          "maxTime" : "2021-12-14T18:50:47.000Z",
+          "mean" : 6.017972845226667E10,
+          "stdDev" : 5.5963094705905996E7
+        }
+      }, {
+        "timestamp" : "2021-12-14T20:00:00.000Z",
+        "value" : 5.933403941546667E10,
+        "type" : "SAMPLE",
+        "aggregateStatistics" : {
+          "sampleTime" : "2021-12-14T19:59:47.000Z",
+          "sampleValue" : 5.8976198656E10,
+          "count" : 60,
+          "min" : 5.8976198656E10,
+          "minTime" : "2021-12-14T19:59:47.000Z",
+          "max" : 6.007015424E10,
+          "maxTime" : "2021-12-14T19:15:47.000Z",
+          "mean" : 5.933403941546667E10,
+          "stdDev" : 4.902816890114484E8
+        }
+      }, {
+        "timestamp" : "2021-12-14T21:00:00.000Z",
+        "value" : 5.8944164113066666E10,
+        "type" : "SAMPLE",
+        "aggregateStatistics" : {
+          "sampleTime" : "2021-12-14T20:59:47.000Z",
+          "sampleValue" : 5.8911301632E10,
+          "count" : 60,
+          "min" : 5.8910539776E10,
+          "minTime" : "2021-12-14T20:58:47.000Z",
+          "max" : 5.8989826048E10,
+          "maxTime" : "2021-12-14T20:00:47.000Z",
+          "mean" : 5.8944164113066666E10,
+          "stdDev" : 1.7679336469068296E7
+        }
+      }, {
+        "timestamp" : "2021-12-14T22:00:00.000Z",
+        "value" : 5.886127977813333E10,
+        "type" : "SAMPLE",
+        "aggregateStatistics" : {
+          "sampleTime" : "2021-12-14T21:59:47.000Z",
+          "sampleValue" : 5.8816831488E10,
+          "count" : 60,
+          "min" : 5.8816831488E10,
+          "minTime" : "2021-12-14T21:59:47.000Z",
+          "max" : 5.9365957632E10,
+          "maxTime" : "2021-12-14T21:02:47.000Z",
+          "mean" : 5.886127977813333E10,
+          "stdDev" : 7.30908045894455E7
+        }
+      }, {
+        "timestamp" : "2021-12-14T23:00:00.000Z",
+        "value" : 5.881276265813333E10,
+        "type" : "SAMPLE",
+        "aggregateStatistics" : {
+          "sampleTime" : "2021-12-14T22:59:47.000Z",
+          "sampleValue" : 5.879846912E10,
+          "count" : 60,
+          "min" : 5.8793545728E10,
+          "minTime" : "2021-12-14T22:29:47.000Z",
+          "max" : 5.8902626304E10,
+          "maxTime" : "2021-12-14T22:50:47.000Z",
+          "mean" : 5.881276265813333E10,
+          "stdDev" : 1.74857548927074E7
+        }
+      }, {
+        "timestamp" : "2021-12-15T00:00:00.000Z",
+        "value" : 5.88017528832E10,
+        "type" : "SAMPLE",
+        "aggregateStatistics" : {
+          "sampleTime" : "2021-12-14T23:59:47.000Z",
+          "sampleValue" : 5.8783051776E10,
+          "count" : 60,
+          "min" : 5.87793408E10,
+          "minTime" : "2021-12-14T23:28:47.000Z",
+          "max" : 5.8936528896E10,
+          "maxTime" : "2021-12-14T23:49:47.000Z",
+          "mean" : 5.88017528832E10,
+          "stdDev" : 3.0370840607682694E7
+        }
+      }, {
+        "timestamp" : "2021-12-15T01:00:00.000Z",
+        "value" : 5.886088301226667E10,
+        "type" : "SAMPLE",
+        "aggregateStatistics" : {
+          "sampleTime" : "2021-12-15T00:59:47.000Z",
+          "sampleValue" : 5.8952609792E10,
+          "count" : 60,
+          "min" : 5.876555776E10,
+          "minTime" : "2021-12-15T00:13:47.000Z",
+          "max" : 5.9472887808E10,
+          "maxTime" : "2021-12-15T00:38:47.000Z",
+          "mean" : 5.886088301226667E10,
+          "stdDev" : 1.5468266769690263E8
+        }
+      }, {
+        "timestamp" : "2021-12-15T02:00:00.000Z",
+        "value" : 5.930227008853333E10,
+        "type" : "SAMPLE",
+        "aggregateStatistics" : {
+          "sampleTime" : "2021-12-15T01:59:47.000Z",
+          "sampleValue" : 6.1212274688E10,
+          "count" : 60,
+          "min" : 5.885730816E10,
+          "minTime" : "2021-12-15T01:09:47.000Z",
+          "max" : 6.2112075776E10,
+          "maxTime" : "2021-12-15T01:52:47.000Z",
+          "mean" : 5.930227008853333E10,
+          "stdDev" : 6.381981365366628E8
+        }
+      }, {
+        "timestamp" : "2021-12-15T03:00:00.000Z",
+        "value" : 5.972617878186667E10,
+        "type" : "SAMPLE",
+        "aggregateStatistics" : {
+          "sampleTime" : "2021-12-15T02:59:47.000Z",
+          "sampleValue" : 5.9807195136E10,
+          "count" : 60,
+          "min" : 5.9077955584E10,
+          "minTime" : "2021-12-15T02:14:47.000Z",
+          "max" : 6.1073948672E10,
+          "maxTime" : "2021-12-15T02:29:48.000Z",
+          "mean" : 5.972617878186667E10,
+          "stdDev" : 4.795053925996836E8
+        }
+      }, {
+        "timestamp" : "2021-12-15T04:00:00.000Z",
+        "value" : 5.9669793518933334E10,
+        "type" : "SAMPLE",
+        "aggregateStatistics" : {
+          "sampleTime" : "2021-12-15T03:59:47.000Z",
+          "sampleValue" : 5.9459825664E10,
+          "count" : 60,
+          "min" : 5.9257409536E10,
+          "minTime" : "2021-12-15T03:26:47.000Z",
+          "max" : 6.1365837824E10,
+          "maxTime" : "2021-12-15T03:53:47.000Z",
+          "mean" : 5.9669793518933334E10,
+          "stdDev" : 4.751973693902277E8
+        }
+      }, {
+        "timestamp" : "2021-12-15T05:00:00.000Z",
+        "value" : 6.03194368E10,
+        "type" : "SAMPLE",
+        "aggregateStatistics" : {
+          "sampleTime" : "2021-12-15T04:59:47.000Z",
+          "sampleValue" : 6.0945678336E10,
+          "count" : 60,
+          "min" : 5.9383844864E10,
+          "minTime" : "2021-12-15T04:06:47.000Z",
+          "max" : 6.6551422976E10,
+          "maxTime" : "2021-12-15T04:14:47.000Z",
+          "mean" : 6.03194368E10,
+          "stdDev" : 1.0811045054646902E9
+        }
+      }, {
+        "timestamp" : "2021-12-15T06:00:00.000Z",
+        "value" : 6.12179646464E10,
+        "type" : "SAMPLE",
+        "aggregateStatistics" : {
+          "sampleTime" : "2021-12-15T05:59:47.000Z",
+          "sampleValue" : 6.1192306688E10,
+          "count" : 60,
+          "min" : 6.03160576E10,
+          "minTime" : "2021-12-15T05:08:47.000Z",
+          "max" : 7.6374376448E10,
+          "maxTime" : "2021-12-15T05:32:54.000Z",
+          "mean" : 6.12179646464E10,
+          "stdDev" : 2.870563000040997E9
+        }
+      }, {
+        "timestamp" : "2021-12-15T07:00:00.000Z",
+        "value" : 6.0596483822933334E10,
+        "type" : "SAMPLE",
+        "aggregateStatistics" : {
+          "sampleTime" : "2021-12-15T06:59:48.000Z",
+          "sampleValue" : 6.0426727424E10,
+          "count" : 60,
+          "min" : 6.0426727424E10,
+          "minTime" : "2021-12-15T06:59:48.000Z",
+          "max" : 6.174369792E10,
+          "maxTime" : "2021-12-15T06:37:48.000Z",
+          "mean" : 6.0596483822933334E10,
+          "stdDev" : 2.5921699509381908E8
+        }
+      }, {
+        "timestamp" : "2021-12-15T08:00:00.000Z",
+        "value" : 6.026611111253333E10,
+        "type" : "SAMPLE",
+        "aggregateStatistics" : {
+          "sampleTime" : "2021-12-15T07:59:48.000Z",
+          "sampleValue" : 5.964056576E10,
+          "count" : 60,
+          "min" : 5.94823168E10,
+          "minTime" : "2021-12-15T07:49:48.000Z",
+          "max" : 6.2545666048E10,
+          "maxTime" : "2021-12-15T07:32:48.000Z",
+          "mean" : 6.026611111253333E10,
+          "stdDev" : 5.753063796341124E8
+        }
+      }, {
+        "timestamp" : "2021-12-15T09:00:00.000Z",
+        "value" : 6.0702856465066666E10,
+        "type" : "SAMPLE",
+        "aggregateStatistics" : {
+          "sampleTime" : "2021-12-15T08:59:48.000Z",
+          "sampleValue" : 6.070194176E10,
+          "count" : 60,
+          "min" : 5.9656667136E10,
+          "minTime" : "2021-12-15T08:09:48.000Z",
+          "max" : 6.660417536E10,
+          "maxTime" : "2021-12-15T08:39:48.000Z",
+          "mean" : 6.0702856465066666E10,
+          "stdDev" : 1.1956993413521304E9
+        }
+      }, {
+        "timestamp" : "2021-12-15T10:00:00.000Z",
+        "value" : 6.179195549013333E10,
+        "type" : "SAMPLE",
+        "aggregateStatistics" : {
+          "sampleTime" : "2021-12-15T09:59:48.000Z",
+          "sampleValue" : 6.0163526656E10,
+          "count" : 60,
+          "min" : 5.988866048E10,
+          "minTime" : "2021-12-15T09:02:48.000Z",
+          "max" : 1.07794120704E11,
+          "maxTime" : "2021-12-15T09:20:48.000Z",
+          "mean" : 6.179195549013333E10,
+          "stdDev" : 7.26011811290761E9
+        }
+      }, {
+        "timestamp" : "2021-12-15T11:00:00.000Z",
+        "value" : 6.053613991253333E10,
+        "type" : "SAMPLE",
+        "aggregateStatistics" : {
+          "sampleTime" : "2021-12-15T10:59:48.000Z",
+          "sampleValue" : 6.0406583296E10,
+          "count" : 60,
+          "min" : 5.9969609728E10,
+          "minTime" : "2021-12-15T10:36:48.000Z",
+          "max" : 6.2224084992E10,
+          "maxTime" : "2021-12-15T10:55:48.000Z",
+          "mean" : 6.053613991253333E10,
+          "stdDev" : 4.769736779330843E8
+        }
+      }, {
+        "timestamp" : "2021-12-15T12:00:00.000Z",
+        "value" : 6.039613740373333E10,
+        "type" : "SAMPLE",
+        "aggregateStatistics" : {
+          "sampleTime" : "2021-12-15T11:59:48.000Z",
+          "sampleValue" : 6.0241010688E10,
+          "count" : 60,
+          "min" : 5.9988271104E10,
+          "minTime" : "2021-12-15T11:27:48.000Z",
+          "max" : 6.153566208E10,
+          "maxTime" : "2021-12-15T11:46:48.000Z",
+          "mean" : 6.039613740373333E10,
+          "stdDev" : 3.161605075876657E8
+        }
+      }, {
+        "timestamp" : "2021-12-15T13:00:00.000Z",
+        "value" : 6.019581494613333E10,
+        "type" : "SAMPLE",
+        "aggregateStatistics" : {
+          "sampleTime" : "2021-12-15T12:59:48.000Z",
+          "sampleValue" : 6.0000182272E10,
+          "count" : 60,
+          "min" : 5.9886055424E10,
+          "minTime" : "2021-12-15T12:24:48.000Z",
+          "max" : 6.0773666816E10,
+          "maxTime" : "2021-12-15T12:35:48.000Z",
+          "mean" : 6.019581494613333E10,
+          "stdDev" : 2.126242778143415E8
+        }
+      }, {
+        "timestamp" : "2021-12-15T14:00:00.000Z",
+        "value" : 6.02866509824E10,
+        "type" : "SAMPLE",
+        "aggregateStatistics" : {
+          "sampleTime" : "2021-12-15T13:59:48.000Z",
+          "sampleValue" : 5.9842244608E10,
+          "count" : 60,
+          "min" : 5.9840782336E10,
+          "minTime" : "2021-12-15T13:58:48.000Z",
+          "max" : 6.242105344E10,
+          "maxTime" : "2021-12-15T13:26:48.000Z",
+          "mean" : 6.02866509824E10,
+          "stdDev" : 3.970561406825822E8
+        }
+      }, {
+        "timestamp" : "2021-12-15T15:00:00.000Z",
+        "value" : 6.03158130688E10,
+        "type" : "SAMPLE",
+        "aggregateStatistics" : {
+          "sampleTime" : "2021-12-15T14:59:48.000Z",
+          "sampleValue" : 6.0086706176E10,
+          "count" : 60,
+          "min" : 5.9877351424E10,
+          "minTime" : "2021-12-15T14:03:48.000Z",
+          "max" : 6.298793984E10,
+          "maxTime" : "2021-12-15T14:23:48.000Z",
+          "mean" : 6.03158130688E10,
+          "stdDev" : 5.454148982126945E8
+        }
+      }, {
+        "timestamp" : "2021-12-15T16:00:00.000Z",
+        "value" : 6.0056024064E10,
+        "type" : "SAMPLE",
+        "aggregateStatistics" : {
+          "sampleTime" : "2021-12-15T15:59:48.000Z",
+          "sampleValue" : 6.0030009344E10,
+          "count" : 60,
+          "min" : 5.9860819968E10,
+          "minTime" : "2021-12-15T15:48:48.000Z",
+          "max" : 6.0744761344E10,
+          "maxTime" : "2021-12-15T15:02:48.000Z",
+          "mean" : 6.0056024064E10,
+          "stdDev" : 1.6886033698222607E8
+        }
+      }, {
+        "timestamp" : "2021-12-15T17:00:00.000Z",
+        "value" : 5.996866812586667E10,
+        "type" : "SAMPLE",
+        "aggregateStatistics" : {
+          "sampleTime" : "2021-12-15T16:59:48.000Z",
+          "sampleValue" : 5.986619392E10,
+          "count" : 60,
+          "min" : 5.9836727296E10,
+          "minTime" : "2021-12-15T16:17:48.000Z",
+          "max" : 6.0350009344E10,
+          "maxTime" : "2021-12-15T16:00:48.000Z",
+          "mean" : 5.996866812586667E10,
+          "stdDev" : 1.3169663310073967E8
+        }
+      } ]
+    } ],
+    "warnings" : [ ],
+    "timeSeriesQuery" : "select mem_rss where roleType=impalad AND hostname rlike \"drcbighdp5[1-2].*\" and clusterName=cluster"
+  } ]
+}

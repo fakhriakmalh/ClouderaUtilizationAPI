@@ -1,0 +1,3517 @@
+{
+  "items" : [ {
+    "timeSeries" : [ {
+      "metadata" : {
+        "metricName" : "cpu_user_rate / getHostFact(numCores,1)*100 +cpu_system_rate / getHostFact(numCores,1)*100",
+        "entityName" : "Impala Daemon (drcbighdp56.corp.bi.go.id)",
+        "startTime" : "2021-12-14T17:00:00.000Z",
+        "endTime" : "2021-12-15T17:00:00.000Z",
+        "attributes" : {
+          "serviceType" : "IMPALA",
+          "clusterDisplayName" : "DRCBIGHDPCL2",
+          "hostId" : "1d68be7d-e5c7-464f-a172-ce33cc693642",
+          "active" : "true",
+          "serviceDisplayName" : "Impala",
+          "serviceName" : "impala",
+          "roleType" : "IMPALAD",
+          "version" : "CDH 7.1.4",
+          "hostname" : "drcbighdp56.corp.bi.go.id",
+          "entityName" : "impala-IMPALAD-0cab5d52c8b37a414d0ebaf2730a04d5",
+          "clusterName" : "cluster",
+          "roleName" : "impala-IMPALAD-0cab5d52c8b37a414d0ebaf2730a04d5",
+          "roleConfigGroup" : "Executors",
+          "category" : "ROLE",
+          "rackId" : "/default"
+        },
+        "unitNumerators" : [ "seconds" ],
+        "unitDenominators" : [ "seconds" ],
+        "expression" : "SELECT cpu_user_rate / getHostFact(numCores,1)*100 +cpu_system_rate / getHostFact(numCores,1)*100 WHERE entityName = \"impala-IMPALAD-0cab5d52c8b37a414d0ebaf2730a04d5\" AND category = ROLE",
+        "metricCollectionFrequencyMs" : 60000,
+        "rollupUsed" : "HOURLY"
+      },
+      "data" : [ {
+        "timestamp" : "2021-12-14T17:00:00.000Z",
+        "value" : 17.306030092591822,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T18:00:00.000Z",
+        "value" : 8.279085648148827,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T19:00:00.000Z",
+        "value" : 5.3167013888884895,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T20:00:00.000Z",
+        "value" : 4.319311342592468,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T21:00:00.000Z",
+        "value" : 4.595086805555856,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T22:00:00.000Z",
+        "value" : 4.878009259259502,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T23:00:00.000Z",
+        "value" : 4.819427083332912,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T00:00:00.000Z",
+        "value" : 5.83644675925906,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T01:00:00.000Z",
+        "value" : 8.532667824074451,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T02:00:00.000Z",
+        "value" : 17.33996527777762,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T03:00:00.000Z",
+        "value" : 27.436869212963455,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T04:00:00.000Z",
+        "value" : 23.277384259258625,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T05:00:00.000Z",
+        "value" : 23.63146990740737,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T06:00:00.000Z",
+        "value" : 16.889988570642863,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T07:00:00.000Z",
+        "value" : 14.47084397640033,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T08:00:00.000Z",
+        "value" : 19.811730324073757,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T09:00:00.000Z",
+        "value" : 23.160567129630017,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T10:00:00.000Z",
+        "value" : 29.862019675925694,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T11:00:00.000Z",
+        "value" : 27.832800925926104,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T12:00:00.000Z",
+        "value" : 24.34640177614979,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T13:00:00.000Z",
+        "value" : 23.846799768518533,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T14:00:00.000Z",
+        "value" : 22.650243055555354,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T15:00:00.000Z",
+        "value" : 23.153547453704284,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T16:00:00.000Z",
+        "value" : 16.2445543981482,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T17:00:00.000Z",
+        "value" : 11.028524305555441,
+        "type" : "CALCULATED"
+      } ]
+    }, {
+      "metadata" : {
+        "metricName" : "cpu_user_rate / getHostFact(numCores,1)*100 +cpu_system_rate / getHostFact(numCores,1)*100",
+        "entityName" : "Impala Daemon (drcbighdp76.corp.bi.go.id)",
+        "startTime" : "2021-12-14T17:00:00.000Z",
+        "endTime" : "2021-12-15T17:00:00.000Z",
+        "attributes" : {
+          "serviceType" : "IMPALA",
+          "clusterDisplayName" : "DRCBIGHDPCL2",
+          "hostId" : "9cd6beef-ba7a-484f-a763-ccb425551568",
+          "active" : "true",
+          "serviceDisplayName" : "Impala",
+          "serviceName" : "impala",
+          "roleType" : "IMPALAD",
+          "version" : "CDH 7.1.4",
+          "hostname" : "drcbighdp76.corp.bi.go.id",
+          "entityName" : "impala-IMPALAD-a74a6c9a71dd290a7a949a5ff1556348",
+          "clusterName" : "cluster",
+          "roleName" : "impala-IMPALAD-a74a6c9a71dd290a7a949a5ff1556348",
+          "roleConfigGroup" : "Executors",
+          "category" : "ROLE",
+          "rackId" : "/default"
+        },
+        "unitNumerators" : [ "seconds" ],
+        "unitDenominators" : [ "seconds" ],
+        "expression" : "SELECT cpu_user_rate / getHostFact(numCores,1)*100 +cpu_system_rate / getHostFact(numCores,1)*100 WHERE entityName = \"impala-IMPALAD-a74a6c9a71dd290a7a949a5ff1556348\" AND category = ROLE",
+        "metricCollectionFrequencyMs" : 60000,
+        "rollupUsed" : "HOURLY"
+      },
+      "data" : [ {
+        "timestamp" : "2021-12-14T17:00:00.000Z",
+        "value" : 13.787355324073562,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T18:00:00.000Z",
+        "value" : 6.864184027777675,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T19:00:00.000Z",
+        "value" : 4.511550925925635,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T20:00:00.000Z",
+        "value" : 3.771533564815467,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T21:00:00.000Z",
+        "value" : 3.8679456018517495,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T22:00:00.000Z",
+        "value" : 4.176047453703413,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T23:00:00.000Z",
+        "value" : 4.22362847222232,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T00:00:00.000Z",
+        "value" : 4.8755729166672,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T01:00:00.000Z",
+        "value" : 7.573767361111096,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T02:00:00.000Z",
+        "value" : 13.535706018517683,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T03:00:00.000Z",
+        "value" : 17.851631944444506,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T04:00:00.000Z",
+        "value" : 17.36194444444441,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T05:00:00.000Z",
+        "value" : 17.74593750000039,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T06:00:00.000Z",
+        "value" : 12.975486111111053,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T07:00:00.000Z",
+        "value" : 11.604612268518935,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T08:00:00.000Z",
+        "value" : 14.002928240740099,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T09:00:00.000Z",
+        "value" : 16.30986111111189,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T10:00:00.000Z",
+        "value" : 20.992138402641928,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T11:00:00.000Z",
+        "value" : 18.818952546296785,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T12:00:00.000Z",
+        "value" : 16.725098379629614,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T13:00:00.000Z",
+        "value" : 13.893524329674564,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T14:00:00.000Z",
+        "value" : 12.562356219706222,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T15:00:00.000Z",
+        "value" : 14.778029788045101,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T16:00:00.000Z",
+        "value" : 11.01192129629716,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T17:00:00.000Z",
+        "value" : 9.42230902777697,
+        "type" : "CALCULATED"
+      } ]
+    }, {
+      "metadata" : {
+        "metricName" : "cpu_user_rate / getHostFact(numCores,1)*100 +cpu_system_rate / getHostFact(numCores,1)*100",
+        "entityName" : "Impala Daemon (drcbighdp71.corp.bi.go.id)",
+        "startTime" : "2021-12-14T17:00:00.000Z",
+        "endTime" : "2021-12-15T17:00:00.000Z",
+        "attributes" : {
+          "serviceType" : "IMPALA",
+          "clusterDisplayName" : "DRCBIGHDPCL2",
+          "hostId" : "bb5e8e3b-7ed9-4180-8063-9c9ccb16a554",
+          "active" : "true",
+          "serviceDisplayName" : "Impala",
+          "serviceName" : "impala",
+          "roleType" : "IMPALAD",
+          "version" : "CDH 7.1.4",
+          "hostname" : "drcbighdp71.corp.bi.go.id",
+          "entityName" : "impala-IMPALAD-8668ea035e34514f3fe0f5e219ecc7b4",
+          "clusterName" : "cluster",
+          "roleName" : "impala-IMPALAD-8668ea035e34514f3fe0f5e219ecc7b4",
+          "roleConfigGroup" : "Executors",
+          "category" : "ROLE",
+          "rackId" : "/default"
+        },
+        "unitNumerators" : [ "seconds" ],
+        "unitDenominators" : [ "seconds" ],
+        "expression" : "SELECT cpu_user_rate / getHostFact(numCores,1)*100 +cpu_system_rate / getHostFact(numCores,1)*100 WHERE entityName = \"impala-IMPALAD-8668ea035e34514f3fe0f5e219ecc7b4\" AND category = ROLE",
+        "metricCollectionFrequencyMs" : 60000,
+        "rollupUsed" : "HOURLY"
+      },
+      "data" : [ {
+        "timestamp" : "2021-12-14T17:00:00.000Z",
+        "value" : 13.903472222222465,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T18:00:00.000Z",
+        "value" : 6.868460648148121,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T19:00:00.000Z",
+        "value" : 4.442957175925889,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T20:00:00.000Z",
+        "value" : 3.938136574073993,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T21:00:00.000Z",
+        "value" : 3.95531250000069,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T22:00:00.000Z",
+        "value" : 4.22041087962929,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T23:00:00.000Z",
+        "value" : 4.294837962962952,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T00:00:00.000Z",
+        "value" : 4.722106481481373,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T01:00:00.000Z",
+        "value" : 7.064021990741081,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T02:00:00.000Z",
+        "value" : 13.726302083332552,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T03:00:00.000Z",
+        "value" : 18.720017361111616,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T04:00:00.000Z",
+        "value" : 18.37013666508444,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T05:00:00.000Z",
+        "value" : 18.758933315131692,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T06:00:00.000Z",
+        "value" : 12.841387787437817,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T07:00:00.000Z",
+        "value" : 12.003790509259286,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T08:00:00.000Z",
+        "value" : 14.08479417668752,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T09:00:00.000Z",
+        "value" : 16.69474017988508,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T10:00:00.000Z",
+        "value" : 21.172142345353876,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T11:00:00.000Z",
+        "value" : 18.694993478126616,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T12:00:00.000Z",
+        "value" : 15.922766203703052,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T13:00:00.000Z",
+        "value" : 14.174519675925964,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T14:00:00.000Z",
+        "value" : 12.555248842592578,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T15:00:00.000Z",
+        "value" : 13.815202546296117,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T16:00:00.000Z",
+        "value" : 11.830596064815502,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T17:00:00.000Z",
+        "value" : 9.526765046295893,
+        "type" : "CALCULATED"
+      } ]
+    }, {
+      "metadata" : {
+        "metricName" : "cpu_user_rate / getHostFact(numCores,1)*100 +cpu_system_rate / getHostFact(numCores,1)*100",
+        "entityName" : "Impala Daemon (drcbighdp54.corp.bi.go.id)",
+        "startTime" : "2021-12-14T17:00:00.000Z",
+        "endTime" : "2021-12-15T17:00:00.000Z",
+        "attributes" : {
+          "serviceType" : "IMPALA",
+          "clusterDisplayName" : "DRCBIGHDPCL2",
+          "hostId" : "6fab5b70-3f6a-4ba5-be94-5c53dc059172",
+          "active" : "true",
+          "serviceDisplayName" : "Impala",
+          "serviceName" : "impala",
+          "roleType" : "IMPALAD",
+          "version" : "CDH 7.1.4",
+          "hostname" : "drcbighdp54.corp.bi.go.id",
+          "entityName" : "impala-IMPALAD-df494b70499b6e3a1fe84cf089010ed8",
+          "clusterName" : "cluster",
+          "roleName" : "impala-IMPALAD-df494b70499b6e3a1fe84cf089010ed8",
+          "roleConfigGroup" : "Executors",
+          "category" : "ROLE",
+          "rackId" : "/default"
+        },
+        "unitNumerators" : [ "seconds" ],
+        "unitDenominators" : [ "seconds" ],
+        "expression" : "SELECT cpu_user_rate / getHostFact(numCores,1)*100 +cpu_system_rate / getHostFact(numCores,1)*100 WHERE entityName = \"impala-IMPALAD-df494b70499b6e3a1fe84cf089010ed8\" AND category = ROLE",
+        "metricCollectionFrequencyMs" : 60000,
+        "rollupUsed" : "HOURLY"
+      },
+      "data" : [ {
+        "timestamp" : "2021-12-14T17:00:00.000Z",
+        "value" : 16.38861111111085,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T18:00:00.000Z",
+        "value" : 8.142262731480987,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T19:00:00.000Z",
+        "value" : 5.28094328703756,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T20:00:00.000Z",
+        "value" : 4.474490740740293,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T21:00:00.000Z",
+        "value" : 4.52073495370442,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T22:00:00.000Z",
+        "value" : 4.770827546296291,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T23:00:00.000Z",
+        "value" : 4.772204552383222,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T00:00:00.000Z",
+        "value" : 5.717155189713132,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T01:00:00.000Z",
+        "value" : 8.740931712963274,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T02:00:00.000Z",
+        "value" : 16.930740740740777,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T03:00:00.000Z",
+        "value" : 22.576406249999746,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T04:00:00.000Z",
+        "value" : 22.123993055554887,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T05:00:00.000Z",
+        "value" : 22.68148148148194,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T06:00:00.000Z",
+        "value" : 15.458906249999862,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T07:00:00.000Z",
+        "value" : 14.49635416666691,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T08:00:00.000Z",
+        "value" : 18.167725694444623,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T09:00:00.000Z",
+        "value" : 21.185717592592685,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T10:00:00.000Z",
+        "value" : 27.829212962962092,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T11:00:00.000Z",
+        "value" : 24.622667824074597,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T12:00:00.000Z",
+        "value" : 21.6699305555555,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T13:00:00.000Z",
+        "value" : 18.338761574073605,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T14:00:00.000Z",
+        "value" : 16.468223379630622,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T15:00:00.000Z",
+        "value" : 17.830844907407247,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T16:00:00.000Z",
+        "value" : 14.124182744627314,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T17:00:00.000Z",
+        "value" : 10.56002342471673,
+        "type" : "CALCULATED"
+      } ]
+    }, {
+      "metadata" : {
+        "metricName" : "cpu_user_rate / getHostFact(numCores,1)*100 +cpu_system_rate / getHostFact(numCores,1)*100",
+        "entityName" : "Impala Daemon (drcbighdp70.corp.bi.go.id)",
+        "startTime" : "2021-12-14T17:00:00.000Z",
+        "endTime" : "2021-12-15T17:00:00.000Z",
+        "attributes" : {
+          "serviceType" : "IMPALA",
+          "clusterDisplayName" : "DRCBIGHDPCL2",
+          "hostId" : "bfbbd23b-e957-41c0-b2be-b792c1558e0a",
+          "active" : "true",
+          "serviceDisplayName" : "Impala",
+          "serviceName" : "impala",
+          "roleType" : "IMPALAD",
+          "version" : "CDH 7.1.4",
+          "hostname" : "drcbighdp70.corp.bi.go.id",
+          "entityName" : "impala-IMPALAD-1a5ef321ef29eb45763bf9183a46f975",
+          "clusterName" : "cluster",
+          "roleName" : "impala-IMPALAD-1a5ef321ef29eb45763bf9183a46f975",
+          "roleConfigGroup" : "Executors",
+          "category" : "ROLE",
+          "rackId" : "/default"
+        },
+        "unitNumerators" : [ "seconds" ],
+        "unitDenominators" : [ "seconds" ],
+        "expression" : "SELECT cpu_user_rate / getHostFact(numCores,1)*100 +cpu_system_rate / getHostFact(numCores,1)*100 WHERE entityName = \"impala-IMPALAD-1a5ef321ef29eb45763bf9183a46f975\" AND category = ROLE",
+        "metricCollectionFrequencyMs" : 60000,
+        "rollupUsed" : "HOURLY"
+      },
+      "data" : [ {
+        "timestamp" : "2021-12-14T17:00:00.000Z",
+        "value" : 14.145723379629526,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T18:00:00.000Z",
+        "value" : 6.884907407407606,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T19:00:00.000Z",
+        "value" : 4.413038194445108,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T20:00:00.000Z",
+        "value" : 3.8164641203702896,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T21:00:00.000Z",
+        "value" : 4.060555555555093,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T22:00:00.000Z",
+        "value" : 4.382835648148708,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T23:00:00.000Z",
+        "value" : 4.310491898148164,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T00:00:00.000Z",
+        "value" : 4.847754629629317,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T01:00:00.000Z",
+        "value" : 7.090431533836445,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T02:00:00.000Z",
+        "value" : 13.738460648147912,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T03:00:00.000Z",
+        "value" : 18.74253373332919,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T04:00:00.000Z",
+        "value" : 17.30691225314569,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T05:00:00.000Z",
+        "value" : 18.296686000741367,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T06:00:00.000Z",
+        "value" : 12.836753472222847,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T07:00:00.000Z",
+        "value" : 11.746828703703578,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T08:00:00.000Z",
+        "value" : 14.378587962963072,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T09:00:00.000Z",
+        "value" : 15.832488425925273,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T10:00:00.000Z",
+        "value" : 21.579965277777468,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T11:00:00.000Z",
+        "value" : 20.097199074074997,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T12:00:00.000Z",
+        "value" : 16.31468171296284,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T13:00:00.000Z",
+        "value" : 14.178836805555706,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T14:00:00.000Z",
+        "value" : 13.039855324073464,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T15:00:00.000Z",
+        "value" : 14.987777777777714,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T16:00:00.000Z",
+        "value" : 12.69125000000053,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T17:00:00.000Z",
+        "value" : 9.457962962962348,
+        "type" : "CALCULATED"
+      } ]
+    }, {
+      "metadata" : {
+        "metricName" : "cpu_user_rate / getHostFact(numCores,1)*100 +cpu_system_rate / getHostFact(numCores,1)*100",
+        "entityName" : "Impala Daemon (drcbighdp51.corp.bi.go.id)",
+        "startTime" : "2021-12-14T17:00:00.000Z",
+        "endTime" : "2021-12-15T17:00:00.000Z",
+        "attributes" : {
+          "serviceType" : "IMPALA",
+          "clusterDisplayName" : "DRCBIGHDPCL2",
+          "hostId" : "1c8660cf-32e2-4ebb-96fa-8d3278b1a92c",
+          "active" : "true",
+          "serviceDisplayName" : "Impala",
+          "serviceName" : "impala",
+          "roleType" : "IMPALAD",
+          "version" : "CDH 7.1.4",
+          "hostname" : "drcbighdp51.corp.bi.go.id",
+          "entityName" : "impala-IMPALAD-cba93097f9d91d8cb55cf12a6125b775",
+          "clusterName" : "cluster",
+          "roleName" : "impala-IMPALAD-cba93097f9d91d8cb55cf12a6125b775",
+          "roleConfigGroup" : "Coordinators",
+          "category" : "ROLE",
+          "rackId" : "/default"
+        },
+        "unitNumerators" : [ "seconds" ],
+        "unitDenominators" : [ "seconds" ],
+        "expression" : "SELECT cpu_user_rate / getHostFact(numCores,1)*100 +cpu_system_rate / getHostFact(numCores,1)*100 WHERE entityName = \"impala-IMPALAD-cba93097f9d91d8cb55cf12a6125b775\" AND category = ROLE",
+        "metricCollectionFrequencyMs" : 60000,
+        "rollupUsed" : "HOURLY"
+      },
+      "data" : [ {
+        "timestamp" : "2021-12-14T17:00:00.000Z",
+        "value" : 10.940989583333485,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T18:00:00.000Z",
+        "value" : 5.99608217592578,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T19:00:00.000Z",
+        "value" : 3.778929398148277,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T20:00:00.000Z",
+        "value" : 1.7981886574072834,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T21:00:00.000Z",
+        "value" : 1.8810879629631085,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T22:00:00.000Z",
+        "value" : 1.3543981481480942,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T23:00:00.000Z",
+        "value" : 0.9275636574074504,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T00:00:00.000Z",
+        "value" : 1.260422453703709,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T01:00:00.000Z",
+        "value" : 3.5618416188137063,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T02:00:00.000Z",
+        "value" : 9.254052688246862,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T03:00:00.000Z",
+        "value" : 14.320030033419714,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T04:00:00.000Z",
+        "value" : 13.393427538706732,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T05:00:00.000Z",
+        "value" : 13.652777777777912,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T06:00:00.000Z",
+        "value" : 10.228929398148198,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T07:00:00.000Z",
+        "value" : 7.945567129629461,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T08:00:00.000Z",
+        "value" : 11.706255787037122,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T09:00:00.000Z",
+        "value" : 13.912420376570566,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T10:00:00.000Z",
+        "value" : 16.856435185185276,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T11:00:00.000Z",
+        "value" : 15.43492476851868,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T12:00:00.000Z",
+        "value" : 12.54302136074294,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T13:00:00.000Z",
+        "value" : 13.681030092592763,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T14:00:00.000Z",
+        "value" : 14.117451188859086,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T15:00:00.000Z",
+        "value" : 14.050010804590237,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T16:00:00.000Z",
+        "value" : 8.510277777777782,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T17:00:00.000Z",
+        "value" : 5.438917824074047,
+        "type" : "CALCULATED"
+      } ]
+    }, {
+      "metadata" : {
+        "metricName" : "cpu_user_rate / getHostFact(numCores,1)*100 +cpu_system_rate / getHostFact(numCores,1)*100",
+        "entityName" : "Impala Daemon (drcbighdp64.corp.bi.go.id)",
+        "startTime" : "2021-12-14T17:00:00.000Z",
+        "endTime" : "2021-12-15T17:00:00.000Z",
+        "attributes" : {
+          "serviceType" : "IMPALA",
+          "clusterDisplayName" : "DRCBIGHDPCL2",
+          "hostId" : "f1d01790-1409-4914-9ba7-64590a278bc8",
+          "active" : "true",
+          "serviceDisplayName" : "Impala",
+          "serviceName" : "impala",
+          "roleType" : "IMPALAD",
+          "version" : "CDH 7.1.4",
+          "hostname" : "drcbighdp64.corp.bi.go.id",
+          "entityName" : "impala-IMPALAD-d7d2c1f23c6b1acb80eaf8090d27a388",
+          "clusterName" : "cluster",
+          "roleName" : "impala-IMPALAD-d7d2c1f23c6b1acb80eaf8090d27a388",
+          "roleConfigGroup" : "Executors",
+          "category" : "ROLE",
+          "rackId" : "/default"
+        },
+        "unitNumerators" : [ "seconds" ],
+        "unitDenominators" : [ "seconds" ],
+        "expression" : "SELECT cpu_user_rate / getHostFact(numCores,1)*100 +cpu_system_rate / getHostFact(numCores,1)*100 WHERE entityName = \"impala-IMPALAD-d7d2c1f23c6b1acb80eaf8090d27a388\" AND category = ROLE",
+        "metricCollectionFrequencyMs" : 60000,
+        "rollupUsed" : "HOURLY"
+      },
+      "data" : [ {
+        "timestamp" : "2021-12-14T17:00:00.000Z",
+        "value" : 17.154374999999735,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T18:00:00.000Z",
+        "value" : 8.07363425925966,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T19:00:00.000Z",
+        "value" : 5.365885416666264,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T20:00:00.000Z",
+        "value" : 4.3492129629636045,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T21:00:00.000Z",
+        "value" : 4.442262731481606,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T22:00:00.000Z",
+        "value" : 4.664924768517705,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T23:00:00.000Z",
+        "value" : 4.687546296296878,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T00:00:00.000Z",
+        "value" : 5.455665509258796,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T01:00:00.000Z",
+        "value" : 7.7976446759261036,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T02:00:00.000Z",
+        "value" : 15.867638888889312,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T03:00:00.000Z",
+        "value" : 22.036418148880866,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T04:00:00.000Z",
+        "value" : 22.117064415719916,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T05:00:00.000Z",
+        "value" : 24.194299329546602,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T06:00:00.000Z",
+        "value" : 15.571860785660546,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T07:00:00.000Z",
+        "value" : 13.847782061375268,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T08:00:00.000Z",
+        "value" : 17.32913773148108,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T09:00:00.000Z",
+        "value" : 20.788969907407587,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T10:00:00.000Z",
+        "value" : 26.44369791666638,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T11:00:00.000Z",
+        "value" : 24.227436342592863,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T12:00:00.000Z",
+        "value" : 20.07344328703672,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T13:00:00.000Z",
+        "value" : 17.41535300925952,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T14:00:00.000Z",
+        "value" : 16.127219895508624,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T15:00:00.000Z",
+        "value" : 16.176579861110643,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T16:00:00.000Z",
+        "value" : 12.766053240741813,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T17:00:00.000Z",
+        "value" : 11.156284722221583,
+        "type" : "CALCULATED"
+      } ]
+    }, {
+      "metadata" : {
+        "metricName" : "cpu_user_rate / getHostFact(numCores,1)*100 +cpu_system_rate / getHostFact(numCores,1)*100",
+        "entityName" : "Impala Daemon (drcbighdp73.corp.bi.go.id)",
+        "startTime" : "2021-12-14T17:00:00.000Z",
+        "endTime" : "2021-12-15T17:00:00.000Z",
+        "attributes" : {
+          "serviceType" : "IMPALA",
+          "clusterDisplayName" : "DRCBIGHDPCL2",
+          "hostId" : "06b33c87-d105-4f4b-990d-7b8c352a084d",
+          "active" : "true",
+          "serviceDisplayName" : "Impala",
+          "serviceName" : "impala",
+          "roleType" : "IMPALAD",
+          "version" : "CDH 7.1.4",
+          "hostname" : "drcbighdp73.corp.bi.go.id",
+          "entityName" : "impala-IMPALAD-d66cb51ac7cb9eae3112e19f28f08e2c",
+          "clusterName" : "cluster",
+          "roleName" : "impala-IMPALAD-d66cb51ac7cb9eae3112e19f28f08e2c",
+          "roleConfigGroup" : "Executors",
+          "category" : "ROLE",
+          "rackId" : "/default"
+        },
+        "unitNumerators" : [ "seconds" ],
+        "unitDenominators" : [ "seconds" ],
+        "expression" : "SELECT cpu_user_rate / getHostFact(numCores,1)*100 +cpu_system_rate / getHostFact(numCores,1)*100 WHERE entityName = \"impala-IMPALAD-d66cb51ac7cb9eae3112e19f28f08e2c\" AND category = ROLE",
+        "metricCollectionFrequencyMs" : 60000,
+        "rollupUsed" : "HOURLY"
+      },
+      "data" : [ {
+        "timestamp" : "2021-12-14T17:00:00.000Z",
+        "value" : 14.108626861049553,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T18:00:00.000Z",
+        "value" : 6.870925831056489,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T19:00:00.000Z",
+        "value" : 4.455370035914459,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T20:00:00.000Z",
+        "value" : 3.870376157407413,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T21:00:00.000Z",
+        "value" : 3.9825173611119413,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T22:00:00.000Z",
+        "value" : 4.2186574074073215,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T23:00:00.000Z",
+        "value" : 4.301811342592205,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T00:00:00.000Z",
+        "value" : 4.832766203703983,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T01:00:00.000Z",
+        "value" : 7.328767361110631,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T02:00:00.000Z",
+        "value" : 13.66105902777781,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T03:00:00.000Z",
+        "value" : 17.904484953703676,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T04:00:00.000Z",
+        "value" : 17.620896990740828,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T05:00:00.000Z",
+        "value" : 18.98573495370416,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T06:00:00.000Z",
+        "value" : 13.193055555555606,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T07:00:00.000Z",
+        "value" : 11.826961805555147,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T08:00:00.000Z",
+        "value" : 14.004241898148056,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T09:00:00.000Z",
+        "value" : 16.786278935185557,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T10:00:00.000Z",
+        "value" : 21.097252078766488,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T11:00:00.000Z",
+        "value" : 18.341157407407152,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T12:00:00.000Z",
+        "value" : 16.266186342593386,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T13:00:00.000Z",
+        "value" : 14.2723900462964,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T14:00:00.000Z",
+        "value" : 13.303437500000046,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T15:00:00.000Z",
+        "value" : 13.769218749998899,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T16:00:00.000Z",
+        "value" : 11.735543981481896,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T17:00:00.000Z",
+        "value" : 10.40277754301609,
+        "type" : "CALCULATED"
+      } ]
+    }, {
+      "metadata" : {
+        "metricName" : "cpu_user_rate / getHostFact(numCores,1)*100 +cpu_system_rate / getHostFact(numCores,1)*100",
+        "entityName" : "Impala Daemon (drcbighdp69.corp.bi.go.id)",
+        "startTime" : "2021-12-14T17:00:00.000Z",
+        "endTime" : "2021-12-15T17:00:00.000Z",
+        "attributes" : {
+          "serviceType" : "IMPALA",
+          "clusterDisplayName" : "DRCBIGHDPCL2",
+          "hostId" : "89a35044-f595-4314-a38f-b0c7f03efd23",
+          "active" : "true",
+          "serviceDisplayName" : "Impala",
+          "serviceName" : "impala",
+          "roleType" : "IMPALAD",
+          "version" : "CDH 7.1.4",
+          "hostname" : "drcbighdp69.corp.bi.go.id",
+          "entityName" : "impala-IMPALAD-794c1a099f5e579921f2ed5cd618fd45",
+          "clusterName" : "cluster",
+          "roleName" : "impala-IMPALAD-794c1a099f5e579921f2ed5cd618fd45",
+          "roleConfigGroup" : "Executors",
+          "category" : "ROLE",
+          "rackId" : "/default"
+        },
+        "unitNumerators" : [ "seconds" ],
+        "unitDenominators" : [ "seconds" ],
+        "expression" : "SELECT cpu_user_rate / getHostFact(numCores,1)*100 +cpu_system_rate / getHostFact(numCores,1)*100 WHERE entityName = \"impala-IMPALAD-794c1a099f5e579921f2ed5cd618fd45\" AND category = ROLE",
+        "metricCollectionFrequencyMs" : 60000,
+        "rollupUsed" : "HOURLY"
+      },
+      "data" : [ {
+        "timestamp" : "2021-12-14T17:00:00.000Z",
+        "value" : 13.733628472222467,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T18:00:00.000Z",
+        "value" : 6.764728009259097,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T19:00:00.000Z",
+        "value" : 4.4991898148151375,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T20:00:00.000Z",
+        "value" : 3.7047344073198456,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T21:00:00.000Z",
+        "value" : 3.876226311578219,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T22:00:00.000Z",
+        "value" : 4.264885743404138,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T23:00:00.000Z",
+        "value" : 4.193975694444278,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T00:00:00.000Z",
+        "value" : 4.970827546295806,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T01:00:00.000Z",
+        "value" : 7.258136574074106,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T02:00:00.000Z",
+        "value" : 13.552627314815052,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T03:00:00.000Z",
+        "value" : 17.543310185184968,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T04:00:00.000Z",
+        "value" : 17.292667824074066,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T05:00:00.000Z",
+        "value" : 17.78043981481527,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T06:00:00.000Z",
+        "value" : 12.719508101851886,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T07:00:00.000Z",
+        "value" : 11.574652777778182,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T08:00:00.000Z",
+        "value" : 13.834849537036293,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T09:00:00.000Z",
+        "value" : 16.215179398148322,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T10:00:00.000Z",
+        "value" : 19.677494212963076,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T11:00:00.000Z",
+        "value" : 17.77626157407455,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T12:00:00.000Z",
+        "value" : 15.779144375559463,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T13:00:00.000Z",
+        "value" : 13.53884837962889,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T14:00:00.000Z",
+        "value" : 12.405069444445099,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T15:00:00.000Z",
+        "value" : 13.580491898147521,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T16:00:00.000Z",
+        "value" : 12.025063657407843,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T17:00:00.000Z",
+        "value" : 9.596886574073897,
+        "type" : "CALCULATED"
+      } ]
+    }, {
+      "metadata" : {
+        "metricName" : "cpu_user_rate / getHostFact(numCores,1)*100 +cpu_system_rate / getHostFact(numCores,1)*100",
+        "entityName" : "Impala Daemon (drcbighdp60.corp.bi.go.id)",
+        "startTime" : "2021-12-14T17:00:00.000Z",
+        "endTime" : "2021-12-15T17:00:00.000Z",
+        "attributes" : {
+          "serviceType" : "IMPALA",
+          "clusterDisplayName" : "DRCBIGHDPCL2",
+          "hostId" : "ca191fbe-66c0-4da4-ade0-435acd332ec5",
+          "active" : "true",
+          "serviceDisplayName" : "Impala",
+          "serviceName" : "impala",
+          "roleType" : "IMPALAD",
+          "version" : "CDH 7.1.4",
+          "hostname" : "drcbighdp60.corp.bi.go.id",
+          "entityName" : "impala-IMPALAD-b387b92e85f4d5da6c861a44858cd74a",
+          "clusterName" : "cluster",
+          "roleName" : "impala-IMPALAD-b387b92e85f4d5da6c861a44858cd74a",
+          "roleConfigGroup" : "Executors",
+          "category" : "ROLE",
+          "rackId" : "/default"
+        },
+        "unitNumerators" : [ "seconds" ],
+        "unitDenominators" : [ "seconds" ],
+        "expression" : "SELECT cpu_user_rate / getHostFact(numCores,1)*100 +cpu_system_rate / getHostFact(numCores,1)*100 WHERE entityName = \"impala-IMPALAD-b387b92e85f4d5da6c861a44858cd74a\" AND category = ROLE",
+        "metricCollectionFrequencyMs" : 60000,
+        "rollupUsed" : "HOURLY"
+      },
+      "data" : [ {
+        "timestamp" : "2021-12-14T17:00:00.000Z",
+        "value" : 16.46164930555514,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T18:00:00.000Z",
+        "value" : 7.721168981481849,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T19:00:00.000Z",
+        "value" : 5.0377430555550005,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T20:00:00.000Z",
+        "value" : 4.209318247159983,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T21:00:00.000Z",
+        "value" : 4.338105072590254,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T22:00:00.000Z",
+        "value" : 4.796140046295343,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T23:00:00.000Z",
+        "value" : 4.636307870371201,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T00:00:00.000Z",
+        "value" : 5.352604166666423,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T01:00:00.000Z",
+        "value" : 7.863512731481563,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T02:00:00.000Z",
+        "value" : 17.281724537036535,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T03:00:00.000Z",
+        "value" : 22.285925925926374,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T04:00:00.000Z",
+        "value" : 20.28100115740731,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T05:00:00.000Z",
+        "value" : 22.457291666666503,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T06:00:00.000Z",
+        "value" : 15.543859953704128,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T07:00:00.000Z",
+        "value" : 13.62794560185109,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T08:00:00.000Z",
+        "value" : 16.546192129630207,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T09:00:00.000Z",
+        "value" : 20.90947916666617,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T10:00:00.000Z",
+        "value" : 28.210291215474086,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T11:00:00.000Z",
+        "value" : 23.795863496362678,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T12:00:00.000Z",
+        "value" : 19.82919042905449,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T13:00:00.000Z",
+        "value" : 17.7636448878543,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T14:00:00.000Z",
+        "value" : 16.297631410281745,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T15:00:00.000Z",
+        "value" : 16.860850694444338,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T16:00:00.000Z",
+        "value" : 12.873454861111288,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T17:00:00.000Z",
+        "value" : 10.345561342592394,
+        "type" : "CALCULATED"
+      } ]
+    }, {
+      "metadata" : {
+        "metricName" : "cpu_user_rate / getHostFact(numCores,1)*100 +cpu_system_rate / getHostFact(numCores,1)*100",
+        "entityName" : "Impala Daemon (drcbighdp65.corp.bi.go.id)",
+        "startTime" : "2021-12-14T17:00:00.000Z",
+        "endTime" : "2021-12-15T17:00:00.000Z",
+        "attributes" : {
+          "serviceType" : "IMPALA",
+          "clusterDisplayName" : "DRCBIGHDPCL2",
+          "hostId" : "12301a53-1146-4484-83a5-ca0cfb342f70",
+          "active" : "true",
+          "serviceDisplayName" : "Impala",
+          "serviceName" : "impala",
+          "roleType" : "IMPALAD",
+          "version" : "CDH 7.1.4",
+          "hostname" : "drcbighdp65.corp.bi.go.id",
+          "entityName" : "impala-IMPALAD-a6ce0cf1a35b577802480725da80690e",
+          "clusterName" : "cluster",
+          "roleName" : "impala-IMPALAD-a6ce0cf1a35b577802480725da80690e",
+          "roleConfigGroup" : "Executors",
+          "category" : "ROLE",
+          "rackId" : "/default"
+        },
+        "unitNumerators" : [ "seconds" ],
+        "unitDenominators" : [ "seconds" ],
+        "expression" : "SELECT cpu_user_rate / getHostFact(numCores,1)*100 +cpu_system_rate / getHostFact(numCores,1)*100 WHERE entityName = \"impala-IMPALAD-a6ce0cf1a35b577802480725da80690e\" AND category = ROLE",
+        "metricCollectionFrequencyMs" : 60000,
+        "rollupUsed" : "HOURLY"
+      },
+      "data" : [ {
+        "timestamp" : "2021-12-14T17:00:00.000Z",
+        "value" : 14.192507317812902,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T18:00:00.000Z",
+        "value" : 6.860387731481346,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T19:00:00.000Z",
+        "value" : 4.529143518518039,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T20:00:00.000Z",
+        "value" : 3.745567129630352,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T21:00:00.000Z",
+        "value" : 4.013502456635834,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T22:00:00.000Z",
+        "value" : 4.20526917360046,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T23:00:00.000Z",
+        "value" : 4.162997685185541,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T00:00:00.000Z",
+        "value" : 4.858148148147411,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T01:00:00.000Z",
+        "value" : 7.280312500000744,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T02:00:00.000Z",
+        "value" : 13.836765046296122,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T03:00:00.000Z",
+        "value" : 17.98304398148105,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T04:00:00.000Z",
+        "value" : 17.404056712963076,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T05:00:00.000Z",
+        "value" : 18.69265046296277,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T06:00:00.000Z",
+        "value" : 13.37517939814872,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T07:00:00.000Z",
+        "value" : 12.665515046296164,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T08:00:00.000Z",
+        "value" : 15.40484375000044,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T09:00:00.000Z",
+        "value" : 16.94233796296289,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T10:00:00.000Z",
+        "value" : 21.610266203703453,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T11:00:00.000Z",
+        "value" : 19.174594907407652,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T12:00:00.000Z",
+        "value" : 17.438512731480944,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T13:00:00.000Z",
+        "value" : 14.480075231481656,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T14:00:00.000Z",
+        "value" : 12.8916956018515,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T15:00:00.000Z",
+        "value" : 13.936950231481777,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T16:00:00.000Z",
+        "value" : 11.858026620370598,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T17:00:00.000Z",
+        "value" : 9.264687499999802,
+        "type" : "CALCULATED"
+      } ]
+    }, {
+      "metadata" : {
+        "metricName" : "cpu_user_rate / getHostFact(numCores,1)*100 +cpu_system_rate / getHostFact(numCores,1)*100",
+        "entityName" : "Impala Daemon (drcbighdp55.corp.bi.go.id)",
+        "startTime" : "2021-12-14T17:00:00.000Z",
+        "endTime" : "2021-12-15T17:00:00.000Z",
+        "attributes" : {
+          "serviceType" : "IMPALA",
+          "clusterDisplayName" : "DRCBIGHDPCL2",
+          "hostId" : "ae4d12cf-e159-446d-a557-4738fe695576",
+          "active" : "true",
+          "serviceDisplayName" : "Impala",
+          "serviceName" : "impala",
+          "roleType" : "IMPALAD",
+          "version" : "CDH 7.1.4",
+          "hostname" : "drcbighdp55.corp.bi.go.id",
+          "entityName" : "impala-IMPALAD-cfc428e2d3cb270b1371d8580a13b75f",
+          "clusterName" : "cluster",
+          "roleName" : "impala-IMPALAD-cfc428e2d3cb270b1371d8580a13b75f",
+          "roleConfigGroup" : "Executors",
+          "category" : "ROLE",
+          "rackId" : "/default"
+        },
+        "unitNumerators" : [ "seconds" ],
+        "unitDenominators" : [ "seconds" ],
+        "expression" : "SELECT cpu_user_rate / getHostFact(numCores,1)*100 +cpu_system_rate / getHostFact(numCores,1)*100 WHERE entityName = \"impala-IMPALAD-cfc428e2d3cb270b1371d8580a13b75f\" AND category = ROLE",
+        "metricCollectionFrequencyMs" : 60000,
+        "rollupUsed" : "HOURLY"
+      },
+      "data" : [ {
+        "timestamp" : "2021-12-14T17:00:00.000Z",
+        "value" : 16.950370370370774,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T18:00:00.000Z",
+        "value" : 7.936649305554899,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T19:00:00.000Z",
+        "value" : 5.052841435185757,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T20:00:00.000Z",
+        "value" : 4.085746527777735,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T21:00:00.000Z",
+        "value" : 4.2463020833329885,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T22:00:00.000Z",
+        "value" : 4.726168981481519,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T23:00:00.000Z",
+        "value" : 4.557667824073482,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T00:00:00.000Z",
+        "value" : 5.344965277778235,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T01:00:00.000Z",
+        "value" : 7.7814699074077485,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T02:00:00.000Z",
+        "value" : 15.488576388888893,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T03:00:00.000Z",
+        "value" : 21.740593321639928,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T04:00:00.000Z",
+        "value" : 21.266779977784118,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T05:00:00.000Z",
+        "value" : 22.791667608358924,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T06:00:00.000Z",
+        "value" : 15.84259152651718,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T07:00:00.000Z",
+        "value" : 14.01971395410812,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T08:00:00.000Z",
+        "value" : 17.78242476851867,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T09:00:00.000Z",
+        "value" : 21.995781249999304,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T10:00:00.000Z",
+        "value" : 26.17789930555591,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T11:00:00.000Z",
+        "value" : 23.86933449074099,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T12:00:00.000Z",
+        "value" : 21.007752580314218,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T13:00:00.000Z",
+        "value" : 18.399519675925994,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T14:00:00.000Z",
+        "value" : 16.29037438543931,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T15:00:00.000Z",
+        "value" : 17.80786458333279,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T16:00:00.000Z",
+        "value" : 13.731996527778662,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T17:00:00.000Z",
+        "value" : 10.16415509259268,
+        "type" : "CALCULATED"
+      } ]
+    }, {
+      "metadata" : {
+        "metricName" : "cpu_user_rate / getHostFact(numCores,1)*100 +cpu_system_rate / getHostFact(numCores,1)*100",
+        "entityName" : "Impala Daemon (drcbighdp67.corp.bi.go.id)",
+        "startTime" : "2021-12-14T17:00:00.000Z",
+        "endTime" : "2021-12-15T17:00:00.000Z",
+        "attributes" : {
+          "serviceType" : "IMPALA",
+          "clusterDisplayName" : "DRCBIGHDPCL2",
+          "hostId" : "1a2aa0ec-2688-4cfd-9dd1-6afaee83e38a",
+          "active" : "true",
+          "serviceDisplayName" : "Impala",
+          "serviceName" : "impala",
+          "roleType" : "IMPALAD",
+          "version" : "CDH 7.1.4",
+          "hostname" : "drcbighdp67.corp.bi.go.id",
+          "entityName" : "impala-IMPALAD-3656f1c5716ca4632a1b5408b924b4aa",
+          "clusterName" : "cluster",
+          "roleName" : "impala-IMPALAD-3656f1c5716ca4632a1b5408b924b4aa",
+          "roleConfigGroup" : "Executors",
+          "category" : "ROLE",
+          "rackId" : "/default"
+        },
+        "unitNumerators" : [ "seconds" ],
+        "unitDenominators" : [ "seconds" ],
+        "expression" : "SELECT cpu_user_rate / getHostFact(numCores,1)*100 +cpu_system_rate / getHostFact(numCores,1)*100 WHERE entityName = \"impala-IMPALAD-3656f1c5716ca4632a1b5408b924b4aa\" AND category = ROLE",
+        "metricCollectionFrequencyMs" : 60000,
+        "rollupUsed" : "HOURLY"
+      },
+      "data" : [ {
+        "timestamp" : "2021-12-14T17:00:00.000Z",
+        "value" : 13.415971910279243,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T18:00:00.000Z",
+        "value" : 6.82240162036989,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T19:00:00.000Z",
+        "value" : 4.583437499999693,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T20:00:00.000Z",
+        "value" : 3.849021990741338,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T21:00:00.000Z",
+        "value" : 3.890955653833699,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T22:00:00.000Z",
+        "value" : 4.20707754629607,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T23:00:00.000Z",
+        "value" : 4.228987268519025,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T00:00:00.000Z",
+        "value" : 4.918865740740094,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T01:00:00.000Z",
+        "value" : 7.260127314815623,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T02:00:00.000Z",
+        "value" : 13.656261574073142,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T03:00:00.000Z",
+        "value" : 18.03203703703777,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T04:00:00.000Z",
+        "value" : 17.008831018517718,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T05:00:00.000Z",
+        "value" : 18.663443287037403,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T06:00:00.000Z",
+        "value" : 12.762303240741284,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T07:00:00.000Z",
+        "value" : 12.046383101851259,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T08:00:00.000Z",
+        "value" : 14.130260416667255,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T09:00:00.000Z",
+        "value" : 15.76269097222205,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T10:00:00.000Z",
+        "value" : 21.229322916666945,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T11:00:00.000Z",
+        "value" : 18.923159722221534,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T12:00:00.000Z",
+        "value" : 16.54086805555521,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T13:00:00.000Z",
+        "value" : 13.906550925926746,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T14:00:00.000Z",
+        "value" : 12.726105324073377,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T15:00:00.000Z",
+        "value" : 14.864513888889231,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T16:00:00.000Z",
+        "value" : 11.059050925926083,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T17:00:00.000Z",
+        "value" : 10.522957175925612,
+        "type" : "CALCULATED"
+      } ]
+    }, {
+      "metadata" : {
+        "metricName" : "cpu_user_rate / getHostFact(numCores,1)*100 +cpu_system_rate / getHostFact(numCores,1)*100",
+        "entityName" : "Impala Daemon (drcbighdp61.corp.bi.go.id)",
+        "startTime" : "2021-12-14T17:00:00.000Z",
+        "endTime" : "2021-12-15T17:00:00.000Z",
+        "attributes" : {
+          "serviceType" : "IMPALA",
+          "clusterDisplayName" : "DRCBIGHDPCL2",
+          "hostId" : "c52446a6-9b20-44bf-b659-99b387966f5a",
+          "active" : "true",
+          "serviceDisplayName" : "Impala",
+          "serviceName" : "impala",
+          "roleType" : "IMPALAD",
+          "version" : "CDH 7.1.4",
+          "hostname" : "drcbighdp61.corp.bi.go.id",
+          "entityName" : "impala-IMPALAD-8a9c25b13ff452ae09c0edeafdbff9dd",
+          "clusterName" : "cluster",
+          "roleName" : "impala-IMPALAD-8a9c25b13ff452ae09c0edeafdbff9dd",
+          "roleConfigGroup" : "Executors",
+          "category" : "ROLE",
+          "rackId" : "/default"
+        },
+        "unitNumerators" : [ "seconds" ],
+        "unitDenominators" : [ "seconds" ],
+        "expression" : "SELECT cpu_user_rate / getHostFact(numCores,1)*100 +cpu_system_rate / getHostFact(numCores,1)*100 WHERE entityName = \"impala-IMPALAD-8a9c25b13ff452ae09c0edeafdbff9dd\" AND category = ROLE",
+        "metricCollectionFrequencyMs" : 60000,
+        "rollupUsed" : "HOURLY"
+      },
+      "data" : [ {
+        "timestamp" : "2021-12-14T17:00:00.000Z",
+        "value" : 15.336788194443756,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T18:00:00.000Z",
+        "value" : 7.844039351852121,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T19:00:00.000Z",
+        "value" : 5.015434027778274,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T20:00:00.000Z",
+        "value" : 4.255925925924978,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T21:00:00.000Z",
+        "value" : 4.256689814815386,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T22:00:00.000Z",
+        "value" : 4.6184317129633135,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T23:00:00.000Z",
+        "value" : 4.605937499999224,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T00:00:00.000Z",
+        "value" : 5.3699999999999255,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T01:00:00.000Z",
+        "value" : 7.93097222222261,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T02:00:00.000Z",
+        "value" : 15.8516898148152,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T03:00:00.000Z",
+        "value" : 21.269930188940904,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T04:00:00.000Z",
+        "value" : 20.928732638888675,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T05:00:00.000Z",
+        "value" : 21.76496548520463,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T06:00:00.000Z",
+        "value" : 15.031875985677518,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T07:00:00.000Z",
+        "value" : 13.797938311374855,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T08:00:00.000Z",
+        "value" : 16.171458333334023,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T09:00:00.000Z",
+        "value" : 19.91696759259166,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T10:00:00.000Z",
+        "value" : 24.662962962963423,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T11:00:00.000Z",
+        "value" : 22.82020651312615,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T12:00:00.000Z",
+        "value" : 20.21914351851848,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T13:00:00.000Z",
+        "value" : 16.309594907407533,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T14:00:00.000Z",
+        "value" : 14.747991898148165,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T15:00:00.000Z",
+        "value" : 15.979137731480778,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T16:00:00.000Z",
+        "value" : 12.361232638889811,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T17:00:00.000Z",
+        "value" : 10.960399305554784,
+        "type" : "CALCULATED"
+      } ]
+    }, {
+      "metadata" : {
+        "metricName" : "cpu_user_rate / getHostFact(numCores,1)*100 +cpu_system_rate / getHostFact(numCores,1)*100",
+        "entityName" : "Impala Daemon (drcbighdp68.corp.bi.go.id)",
+        "startTime" : "2021-12-14T17:00:00.000Z",
+        "endTime" : "2021-12-15T17:00:00.000Z",
+        "attributes" : {
+          "serviceType" : "IMPALA",
+          "clusterDisplayName" : "DRCBIGHDPCL2",
+          "hostId" : "674c8de3-d8b3-468c-b990-18e37588a59e",
+          "active" : "true",
+          "serviceDisplayName" : "Impala",
+          "serviceName" : "impala",
+          "roleType" : "IMPALAD",
+          "version" : "CDH 7.1.4",
+          "hostname" : "drcbighdp68.corp.bi.go.id",
+          "entityName" : "impala-IMPALAD-6d426f11fff86051c035863667a405d9",
+          "clusterName" : "cluster",
+          "roleName" : "impala-IMPALAD-6d426f11fff86051c035863667a405d9",
+          "roleConfigGroup" : "Executors",
+          "category" : "ROLE",
+          "rackId" : "/default"
+        },
+        "unitNumerators" : [ "seconds" ],
+        "unitDenominators" : [ "seconds" ],
+        "expression" : "SELECT cpu_user_rate / getHostFact(numCores,1)*100 +cpu_system_rate / getHostFact(numCores,1)*100 WHERE entityName = \"impala-IMPALAD-6d426f11fff86051c035863667a405d9\" AND category = ROLE",
+        "metricCollectionFrequencyMs" : 60000,
+        "rollupUsed" : "HOURLY"
+      },
+      "data" : [ {
+        "timestamp" : "2021-12-14T17:00:00.000Z",
+        "value" : 13.76508680555492,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T18:00:00.000Z",
+        "value" : 6.881209490740594,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T19:00:00.000Z",
+        "value" : 4.528153935185131,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T20:00:00.000Z",
+        "value" : 3.917355324073907,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T21:00:00.000Z",
+        "value" : 3.945700231481438,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T22:00:00.000Z",
+        "value" : 4.24138310185245,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T23:00:00.000Z",
+        "value" : 4.293408524615653,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T00:00:00.000Z",
+        "value" : 4.948021413805878,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T01:00:00.000Z",
+        "value" : 7.121235525171386,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T02:00:00.000Z",
+        "value" : 13.89739460163889,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T03:00:00.000Z",
+        "value" : 18.548043981481356,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T04:00:00.000Z",
+        "value" : 17.391151620370863,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T05:00:00.000Z",
+        "value" : 18.642106481481242,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T06:00:00.000Z",
+        "value" : 13.690405092591792,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T07:00:00.000Z",
+        "value" : 11.796348379629947,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T08:00:00.000Z",
+        "value" : 13.939837962963658,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T09:00:00.000Z",
+        "value" : 16.027274305555355,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T10:00:00.000Z",
+        "value" : 21.42060763888865,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T11:00:00.000Z",
+        "value" : 19.52427083333344,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T12:00:00.000Z",
+        "value" : 16.86424768518474,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T13:00:00.000Z",
+        "value" : 13.823813657407568,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T14:00:00.000Z",
+        "value" : 12.847627314815458,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T15:00:00.000Z",
+        "value" : 14.170862268518249,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T16:00:00.000Z",
+        "value" : 11.50638888888837,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T17:00:00.000Z",
+        "value" : 9.78452546296305,
+        "type" : "CALCULATED"
+      } ]
+    }, {
+      "metadata" : {
+        "metricName" : "cpu_user_rate / getHostFact(numCores,1)*100 +cpu_system_rate / getHostFact(numCores,1)*100",
+        "entityName" : "Impala Daemon (drcbighdp72.corp.bi.go.id)",
+        "startTime" : "2021-12-14T17:00:00.000Z",
+        "endTime" : "2021-12-15T17:00:00.000Z",
+        "attributes" : {
+          "serviceType" : "IMPALA",
+          "clusterDisplayName" : "DRCBIGHDPCL2",
+          "hostId" : "5e390a13-3cf9-40e9-8d77-116c4ec0cf2b",
+          "active" : "true",
+          "serviceDisplayName" : "Impala",
+          "serviceName" : "impala",
+          "roleType" : "IMPALAD",
+          "version" : "CDH 7.1.4",
+          "hostname" : "drcbighdp72.corp.bi.go.id",
+          "entityName" : "impala-IMPALAD-f6c4ef4f2f804867e46be330e9701316",
+          "clusterName" : "cluster",
+          "roleName" : "impala-IMPALAD-f6c4ef4f2f804867e46be330e9701316",
+          "roleConfigGroup" : "Executors",
+          "category" : "ROLE",
+          "rackId" : "/default"
+        },
+        "unitNumerators" : [ "seconds" ],
+        "unitDenominators" : [ "seconds" ],
+        "expression" : "SELECT cpu_user_rate / getHostFact(numCores,1)*100 +cpu_system_rate / getHostFact(numCores,1)*100 WHERE entityName = \"impala-IMPALAD-f6c4ef4f2f804867e46be330e9701316\" AND category = ROLE",
+        "metricCollectionFrequencyMs" : 60000,
+        "rollupUsed" : "HOURLY"
+      },
+      "data" : [ {
+        "timestamp" : "2021-12-14T17:00:00.000Z",
+        "value" : 14.335277777777705,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T18:00:00.000Z",
+        "value" : 7.208761574074607,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T19:00:00.000Z",
+        "value" : 4.445972222222163,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T20:00:00.000Z",
+        "value" : 3.8810763888887543,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T21:00:00.000Z",
+        "value" : 3.925833333333921,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T22:00:00.000Z",
+        "value" : 4.235734953703623,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T23:00:00.000Z",
+        "value" : 4.274224537036693,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T00:00:00.000Z",
+        "value" : 4.8187268518518565,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T01:00:00.000Z",
+        "value" : 6.980954861111024,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T02:00:00.000Z",
+        "value" : 13.742841435185387,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T03:00:00.000Z",
+        "value" : 17.99118634259274,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T04:00:00.000Z",
+        "value" : 17.622667824074195,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T05:00:00.000Z",
+        "value" : 19.03967013888797,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T06:00:00.000Z",
+        "value" : 13.228831018518745,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T07:00:00.000Z",
+        "value" : 12.2236747685192,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T08:00:00.000Z",
+        "value" : 14.125467320525631,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T09:00:00.000Z",
+        "value" : 16.563278760883303,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T10:00:00.000Z",
+        "value" : 20.95166087962921,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T11:00:00.000Z",
+        "value" : 19.549185544080885,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T12:00:00.000Z",
+        "value" : 16.571671810520684,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T13:00:00.000Z",
+        "value" : 14.103367196906724,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T14:00:00.000Z",
+        "value" : 12.134251809594613,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T15:00:00.000Z",
+        "value" : 14.615272532622267,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T16:00:00.000Z",
+        "value" : 11.373977664192147,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T17:00:00.000Z",
+        "value" : 9.617633061652574,
+        "type" : "CALCULATED"
+      } ]
+    }, {
+      "metadata" : {
+        "metricName" : "cpu_user_rate / getHostFact(numCores,1)*100 +cpu_system_rate / getHostFact(numCores,1)*100",
+        "entityName" : "Impala Daemon (drcbighdp77.corp.bi.go.id)",
+        "startTime" : "2021-12-14T17:00:00.000Z",
+        "endTime" : "2021-12-15T17:00:00.000Z",
+        "attributes" : {
+          "serviceType" : "IMPALA",
+          "clusterDisplayName" : "DRCBIGHDPCL2",
+          "hostId" : "967a5aec-43fb-416f-a7f6-a7d7d97a1454",
+          "active" : "true",
+          "serviceDisplayName" : "Impala",
+          "serviceName" : "impala",
+          "roleType" : "IMPALAD",
+          "version" : "CDH 7.1.4",
+          "hostname" : "drcbighdp77.corp.bi.go.id",
+          "entityName" : "impala-IMPALAD-a06826da533aaf8db40791c258098dad",
+          "clusterName" : "cluster",
+          "roleName" : "impala-IMPALAD-a06826da533aaf8db40791c258098dad",
+          "roleConfigGroup" : "Executors",
+          "category" : "ROLE",
+          "rackId" : "/default"
+        },
+        "unitNumerators" : [ "seconds" ],
+        "unitDenominators" : [ "seconds" ],
+        "expression" : "SELECT cpu_user_rate / getHostFact(numCores,1)*100 +cpu_system_rate / getHostFact(numCores,1)*100 WHERE entityName = \"impala-IMPALAD-a06826da533aaf8db40791c258098dad\" AND category = ROLE",
+        "metricCollectionFrequencyMs" : 60000,
+        "rollupUsed" : "HOURLY"
+      },
+      "data" : [ {
+        "timestamp" : "2021-12-14T17:00:00.000Z",
+        "value" : 13.558373842592387,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T18:00:00.000Z",
+        "value" : 6.735318287036972,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T19:00:00.000Z",
+        "value" : 4.4640972222227395,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T20:00:00.000Z",
+        "value" : 3.8934837962961293,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T21:00:00.000Z",
+        "value" : 4.037540509259324,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T22:00:00.000Z",
+        "value" : 4.219322916666797,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T23:00:00.000Z",
+        "value" : 4.125028935185077,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T00:00:00.000Z",
+        "value" : 4.869866827397482,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T01:00:00.000Z",
+        "value" : 7.084834745441078,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T02:00:00.000Z",
+        "value" : 13.297138695291071,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T03:00:00.000Z",
+        "value" : 17.15611111111098,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T04:00:00.000Z",
+        "value" : 17.11222222222245,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T05:00:00.000Z",
+        "value" : 17.787384259259042,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T06:00:00.000Z",
+        "value" : 12.77037615740725,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T07:00:00.000Z",
+        "value" : 11.999722222223177,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T08:00:00.000Z",
+        "value" : 14.482505787036509,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T09:00:00.000Z",
+        "value" : 15.479346064814711,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T10:00:00.000Z",
+        "value" : 19.05577546296343,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T11:00:00.000Z",
+        "value" : 18.154768518517944,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T12:00:00.000Z",
+        "value" : 15.577719907407705,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T13:00:00.000Z",
+        "value" : 13.30983796296304,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T14:00:00.000Z",
+        "value" : 12.343825231481418,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T15:00:00.000Z",
+        "value" : 12.909212962963027,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T16:00:00.000Z",
+        "value" : 11.589027777778098,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T17:00:00.000Z",
+        "value" : 10.17943865740704,
+        "type" : "CALCULATED"
+      } ]
+    }, {
+      "metadata" : {
+        "metricName" : "cpu_user_rate / getHostFact(numCores,1)*100 +cpu_system_rate / getHostFact(numCores,1)*100",
+        "entityName" : "Impala Daemon (drcbighdp63.corp.bi.go.id)",
+        "startTime" : "2021-12-14T17:00:00.000Z",
+        "endTime" : "2021-12-15T17:00:00.000Z",
+        "attributes" : {
+          "serviceType" : "IMPALA",
+          "clusterDisplayName" : "DRCBIGHDPCL2",
+          "hostId" : "1d7915d1-1ccf-4697-8883-0abc2211a43a",
+          "active" : "true",
+          "serviceDisplayName" : "Impala",
+          "serviceName" : "impala",
+          "roleType" : "IMPALAD",
+          "version" : "CDH 7.1.4",
+          "hostname" : "drcbighdp63.corp.bi.go.id",
+          "entityName" : "impala-IMPALAD-88fd94d265fb9300d50d4c4f9928b5ee",
+          "clusterName" : "cluster",
+          "roleName" : "impala-IMPALAD-88fd94d265fb9300d50d4c4f9928b5ee",
+          "roleConfigGroup" : "Executors",
+          "category" : "ROLE",
+          "rackId" : "/default"
+        },
+        "unitNumerators" : [ "seconds" ],
+        "unitDenominators" : [ "seconds" ],
+        "expression" : "SELECT cpu_user_rate / getHostFact(numCores,1)*100 +cpu_system_rate / getHostFact(numCores,1)*100 WHERE entityName = \"impala-IMPALAD-88fd94d265fb9300d50d4c4f9928b5ee\" AND category = ROLE",
+        "metricCollectionFrequencyMs" : 60000,
+        "rollupUsed" : "HOURLY"
+      },
+      "data" : [ {
+        "timestamp" : "2021-12-14T17:00:00.000Z",
+        "value" : 15.960399305555189,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T18:00:00.000Z",
+        "value" : 8.373616898148208,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T19:00:00.000Z",
+        "value" : 5.217447916666937,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T20:00:00.000Z",
+        "value" : 4.381325231481443,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T21:00:00.000Z",
+        "value" : 4.2490798611107925,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T22:00:00.000Z",
+        "value" : 4.804050925926276,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T23:00:00.000Z",
+        "value" : 4.751545138888172,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T00:00:00.000Z",
+        "value" : 5.410098379629845,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T01:00:00.000Z",
+        "value" : 8.020740740740655,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T02:00:00.000Z",
+        "value" : 15.635202546296366,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T03:00:00.000Z",
+        "value" : 21.67766203703771,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T04:00:00.000Z",
+        "value" : 20.529693287036935,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T05:00:00.000Z",
+        "value" : 21.318130787036754,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T06:00:00.000Z",
+        "value" : 15.15760416666712,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T07:00:00.000Z",
+        "value" : 13.791192129629323,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T08:00:00.000Z",
+        "value" : 16.190549768518935,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T09:00:00.000Z",
+        "value" : 18.89675347222119,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T10:00:00.000Z",
+        "value" : 25.982985352155687,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T11:00:00.000Z",
+        "value" : 22.293397014860084,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T12:00:00.000Z",
+        "value" : 19.78742280359568,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T13:00:00.000Z",
+        "value" : 16.365561342592155,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T14:00:00.000Z",
+        "value" : 14.437656250000416,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T15:00:00.000Z",
+        "value" : 15.818356481481548,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T16:00:00.000Z",
+        "value" : 13.362077546296526,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T17:00:00.000Z",
+        "value" : 11.078275462962294,
+        "type" : "CALCULATED"
+      } ]
+    }, {
+      "metadata" : {
+        "metricName" : "cpu_user_rate / getHostFact(numCores,1)*100 +cpu_system_rate / getHostFact(numCores,1)*100",
+        "entityName" : "Impala Daemon (drcbighdp62.corp.bi.go.id)",
+        "startTime" : "2021-12-14T17:00:00.000Z",
+        "endTime" : "2021-12-15T17:00:00.000Z",
+        "attributes" : {
+          "serviceType" : "IMPALA",
+          "clusterDisplayName" : "DRCBIGHDPCL2",
+          "hostId" : "a5a7cf3b-45c6-4c58-aa4f-015cccd2bdf5",
+          "active" : "true",
+          "serviceDisplayName" : "Impala",
+          "serviceName" : "impala",
+          "roleType" : "IMPALAD",
+          "version" : "CDH 7.1.4",
+          "hostname" : "drcbighdp62.corp.bi.go.id",
+          "entityName" : "impala-IMPALAD-abd2183376d3971feaae566b27dbe79e",
+          "clusterName" : "cluster",
+          "roleName" : "impala-IMPALAD-abd2183376d3971feaae566b27dbe79e",
+          "roleConfigGroup" : "Executors",
+          "category" : "ROLE",
+          "rackId" : "/default"
+        },
+        "unitNumerators" : [ "seconds" ],
+        "unitDenominators" : [ "seconds" ],
+        "expression" : "SELECT cpu_user_rate / getHostFact(numCores,1)*100 +cpu_system_rate / getHostFact(numCores,1)*100 WHERE entityName = \"impala-IMPALAD-abd2183376d3971feaae566b27dbe79e\" AND category = ROLE",
+        "metricCollectionFrequencyMs" : 60000,
+        "rollupUsed" : "HOURLY"
+      },
+      "data" : [ {
+        "timestamp" : "2021-12-14T17:00:00.000Z",
+        "value" : 15.111481481481283,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T18:00:00.000Z",
+        "value" : 7.724444444444761,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T19:00:00.000Z",
+        "value" : 4.920966435185147,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T20:00:00.000Z",
+        "value" : 4.278096064814707,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T21:00:00.000Z",
+        "value" : 4.249988425925377,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T22:00:00.000Z",
+        "value" : 4.850324074074403,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T23:00:00.000Z",
+        "value" : 4.760758101851765,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T00:00:00.000Z",
+        "value" : 5.295706018518373,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T01:00:00.000Z",
+        "value" : 8.184467592592732,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T02:00:00.000Z",
+        "value" : 15.689697091463414,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T03:00:00.000Z",
+        "value" : 21.447615152228433,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T04:00:00.000Z",
+        "value" : 19.3501612394908,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T05:00:00.000Z",
+        "value" : 20.386388888888312,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T06:00:00.000Z",
+        "value" : 14.733032407408045,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T07:00:00.000Z",
+        "value" : 13.242042824073401,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T08:00:00.000Z",
+        "value" : 16.594346064814832,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T09:00:00.000Z",
+        "value" : 17.448587962962648,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T10:00:00.000Z",
+        "value" : 23.231973379629956,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T11:00:00.000Z",
+        "value" : 20.779953703703708,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T12:00:00.000Z",
+        "value" : 17.91485532407373,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T13:00:00.000Z",
+        "value" : 15.523859953704232,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T14:00:00.000Z",
+        "value" : 14.378634259259684,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T15:00:00.000Z",
+        "value" : 14.763599537036496,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T16:00:00.000Z",
+        "value" : 12.419178240740923,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T17:00:00.000Z",
+        "value" : 10.756087962963107,
+        "type" : "CALCULATED"
+      } ]
+    }, {
+      "metadata" : {
+        "metricName" : "cpu_user_rate / getHostFact(numCores,1)*100 +cpu_system_rate / getHostFact(numCores,1)*100",
+        "entityName" : "Impala Daemon (drcbighdp57.corp.bi.go.id)",
+        "startTime" : "2021-12-14T17:00:00.000Z",
+        "endTime" : "2021-12-15T17:00:00.000Z",
+        "attributes" : {
+          "serviceType" : "IMPALA",
+          "clusterDisplayName" : "DRCBIGHDPCL2",
+          "hostId" : "e61e6c93-1011-457c-bfa8-88ef264b0bd0",
+          "active" : "true",
+          "serviceDisplayName" : "Impala",
+          "serviceName" : "impala",
+          "roleType" : "IMPALAD",
+          "version" : "CDH 7.1.4",
+          "hostname" : "drcbighdp57.corp.bi.go.id",
+          "entityName" : "impala-IMPALAD-fbf0470d8abc507dbacd22bd8492836d",
+          "clusterName" : "cluster",
+          "roleName" : "impala-IMPALAD-fbf0470d8abc507dbacd22bd8492836d",
+          "roleConfigGroup" : "Executors",
+          "category" : "ROLE",
+          "rackId" : "/default"
+        },
+        "unitNumerators" : [ "seconds" ],
+        "unitDenominators" : [ "seconds" ],
+        "expression" : "SELECT cpu_user_rate / getHostFact(numCores,1)*100 +cpu_system_rate / getHostFact(numCores,1)*100 WHERE entityName = \"impala-IMPALAD-fbf0470d8abc507dbacd22bd8492836d\" AND category = ROLE",
+        "metricCollectionFrequencyMs" : 60000,
+        "rollupUsed" : "HOURLY"
+      },
+      "data" : [ {
+        "timestamp" : "2021-12-14T17:00:00.000Z",
+        "value" : 15.832738133598562,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T18:00:00.000Z",
+        "value" : 7.69678317761939,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T19:00:00.000Z",
+        "value" : 4.85770833333259,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T20:00:00.000Z",
+        "value" : 4.369687500000981,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T21:00:00.000Z",
+        "value" : 4.26179976851792,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T22:00:00.000Z",
+        "value" : 4.602853009259114,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T23:00:00.000Z",
+        "value" : 4.674635416666408,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T00:00:00.000Z",
+        "value" : 5.394693287038132,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T01:00:00.000Z",
+        "value" : 8.172384259258791,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T02:00:00.000Z",
+        "value" : 15.75526620370389,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T03:00:00.000Z",
+        "value" : 20.751961805555496,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T04:00:00.000Z",
+        "value" : 20.397309027778075,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T05:00:00.000Z",
+        "value" : 21.284751157406628,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T06:00:00.000Z",
+        "value" : 15.019618055555366,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T07:00:00.000Z",
+        "value" : 13.5520370370378,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T08:00:00.000Z",
+        "value" : 16.909346064814734,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T09:00:00.000Z",
+        "value" : 20.654751157407627,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T10:00:00.000Z",
+        "value" : 24.17418981481401,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T11:00:00.000Z",
+        "value" : 23.353194444445286,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T12:00:00.000Z",
+        "value" : 19.081770833332687,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T13:00:00.000Z",
+        "value" : 16.573685617404582,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T14:00:00.000Z",
+        "value" : 15.133473899320936,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T15:00:00.000Z",
+        "value" : 16.491656467396144,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T16:00:00.000Z",
+        "value" : 13.62379629629625,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T17:00:00.000Z",
+        "value" : 10.260292837901932,
+        "type" : "CALCULATED"
+      } ]
+    }, {
+      "metadata" : {
+        "metricName" : "cpu_user_rate / getHostFact(numCores,1)*100 +cpu_system_rate / getHostFact(numCores,1)*100",
+        "entityName" : "Impala Daemon (drcbighdp75.corp.bi.go.id)",
+        "startTime" : "2021-12-14T17:00:00.000Z",
+        "endTime" : "2021-12-15T17:00:00.000Z",
+        "attributes" : {
+          "serviceType" : "IMPALA",
+          "clusterDisplayName" : "DRCBIGHDPCL2",
+          "hostId" : "38b114b3-d2d3-451b-9f81-a4102b03a640",
+          "active" : "true",
+          "serviceDisplayName" : "Impala",
+          "serviceName" : "impala",
+          "roleType" : "IMPALAD",
+          "version" : "CDH 7.1.4",
+          "hostname" : "drcbighdp75.corp.bi.go.id",
+          "entityName" : "impala-IMPALAD-1299bed4635f1e65a82e463d8a969547",
+          "clusterName" : "cluster",
+          "roleName" : "impala-IMPALAD-1299bed4635f1e65a82e463d8a969547",
+          "roleConfigGroup" : "Executors",
+          "category" : "ROLE",
+          "rackId" : "/default"
+        },
+        "unitNumerators" : [ "seconds" ],
+        "unitDenominators" : [ "seconds" ],
+        "expression" : "SELECT cpu_user_rate / getHostFact(numCores,1)*100 +cpu_system_rate / getHostFact(numCores,1)*100 WHERE entityName = \"impala-IMPALAD-1299bed4635f1e65a82e463d8a969547\" AND category = ROLE",
+        "metricCollectionFrequencyMs" : 60000,
+        "rollupUsed" : "HOURLY"
+      },
+      "data" : [ {
+        "timestamp" : "2021-12-14T17:00:00.000Z",
+        "value" : 14.630214120370779,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T18:00:00.000Z",
+        "value" : 7.7451620370371135,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T19:00:00.000Z",
+        "value" : 4.725248842592446,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T20:00:00.000Z",
+        "value" : 4.074317129629586,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T21:00:00.000Z",
+        "value" : 4.082083333333652,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T22:00:00.000Z",
+        "value" : 4.217899305555302,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T23:00:00.000Z",
+        "value" : 4.344537037036423,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T00:00:00.000Z",
+        "value" : 4.929681712963632,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T01:00:00.000Z",
+        "value" : 7.461255787036525,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T02:00:00.000Z",
+        "value" : 14.176973379629796,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T03:00:00.000Z",
+        "value" : 18.56256944444424,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T04:00:00.000Z",
+        "value" : 17.802835648148847,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T05:00:00.000Z",
+        "value" : 18.908848379629084,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T06:00:00.000Z",
+        "value" : 13.568564814815074,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T07:00:00.000Z",
+        "value" : 12.175525891966139,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T08:00:00.000Z",
+        "value" : 14.766730324073759,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T09:00:00.000Z",
+        "value" : 16.27458933905281,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T10:00:00.000Z",
+        "value" : 21.317682321413756,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T11:00:00.000Z",
+        "value" : 19.710578951329246,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T12:00:00.000Z",
+        "value" : 16.325915134926536,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T13:00:00.000Z",
+        "value" : 14.387836527700134,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T14:00:00.000Z",
+        "value" : 12.995289351852179,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T15:00:00.000Z",
+        "value" : 14.06730902777727,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T16:00:00.000Z",
+        "value" : 11.677685185185748,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T17:00:00.000Z",
+        "value" : 9.890613425926318,
+        "type" : "CALCULATED"
+      } ]
+    }, {
+      "metadata" : {
+        "metricName" : "cpu_user_rate / getHostFact(numCores,1)*100 +cpu_system_rate / getHostFact(numCores,1)*100",
+        "entityName" : "Impala Daemon (drcbighdp66.corp.bi.go.id)",
+        "startTime" : "2021-12-14T17:00:00.000Z",
+        "endTime" : "2021-12-15T17:00:00.000Z",
+        "attributes" : {
+          "serviceType" : "IMPALA",
+          "clusterDisplayName" : "DRCBIGHDPCL2",
+          "hostId" : "8aedac33-8ed1-4770-ba3c-8b03166d10bd",
+          "active" : "true",
+          "serviceDisplayName" : "Impala",
+          "serviceName" : "impala",
+          "roleType" : "IMPALAD",
+          "version" : "CDH 7.1.4",
+          "hostname" : "drcbighdp66.corp.bi.go.id",
+          "entityName" : "impala-IMPALAD-49405146b437272516ce3acf9514d077",
+          "clusterName" : "cluster",
+          "roleName" : "impala-IMPALAD-49405146b437272516ce3acf9514d077",
+          "roleConfigGroup" : "Executors",
+          "category" : "ROLE",
+          "rackId" : "/default"
+        },
+        "unitNumerators" : [ "seconds" ],
+        "unitDenominators" : [ "seconds" ],
+        "expression" : "SELECT cpu_user_rate / getHostFact(numCores,1)*100 +cpu_system_rate / getHostFact(numCores,1)*100 WHERE entityName = \"impala-IMPALAD-49405146b437272516ce3acf9514d077\" AND category = ROLE",
+        "metricCollectionFrequencyMs" : 60000,
+        "rollupUsed" : "HOURLY"
+      },
+      "data" : [ {
+        "timestamp" : "2021-12-14T17:00:00.000Z",
+        "value" : 14.49662156186696,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T18:00:00.000Z",
+        "value" : 6.91829103441758,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T19:00:00.000Z",
+        "value" : 4.721968571838612,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T20:00:00.000Z",
+        "value" : 3.848744212963303,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T21:00:00.000Z",
+        "value" : 4.073732638888302,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T22:00:00.000Z",
+        "value" : 4.2123032407408,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T23:00:00.000Z",
+        "value" : 4.078784722222298,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T00:00:00.000Z",
+        "value" : 4.831597222222627,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T01:00:00.000Z",
+        "value" : 7.40517939814715,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T02:00:00.000Z",
+        "value" : 13.509936342592685,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T03:00:00.000Z",
+        "value" : 17.781082175926176,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T04:00:00.000Z",
+        "value" : 17.79483796296376,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T05:00:00.000Z",
+        "value" : 19.876892361110855,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T06:00:00.000Z",
+        "value" : 14.037089120370151,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T07:00:00.000Z",
+        "value" : 12.041504629629749,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T08:00:00.000Z",
+        "value" : 14.402135416666876,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T09:00:00.000Z",
+        "value" : 17.10717592592536,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T10:00:00.000Z",
+        "value" : 21.178650371554944,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T11:00:00.000Z",
+        "value" : 19.804592627665322,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T12:00:00.000Z",
+        "value" : 17.291811342593267,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T13:00:00.000Z",
+        "value" : 14.327557870369438,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T14:00:00.000Z",
+        "value" : 13.097644675926453,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T15:00:00.000Z",
+        "value" : 14.789866898147817,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T16:00:00.000Z",
+        "value" : 11.644091435185178,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T17:00:00.000Z",
+        "value" : 9.466197916667255,
+        "type" : "CALCULATED"
+      } ]
+    }, {
+      "metadata" : {
+        "metricName" : "cpu_user_rate / getHostFact(numCores,1)*100 +cpu_system_rate / getHostFact(numCores,1)*100",
+        "entityName" : "Impala Daemon (drcbighdp53.corp.bi.go.id)",
+        "startTime" : "2021-12-14T17:00:00.000Z",
+        "endTime" : "2021-12-15T17:00:00.000Z",
+        "attributes" : {
+          "serviceType" : "IMPALA",
+          "clusterDisplayName" : "DRCBIGHDPCL2",
+          "hostId" : "40774ad6-250c-4ea2-8872-32d1db3efae0",
+          "active" : "true",
+          "serviceDisplayName" : "Impala",
+          "serviceName" : "impala",
+          "roleType" : "IMPALAD",
+          "version" : "CDH 7.1.4",
+          "hostname" : "drcbighdp53.corp.bi.go.id",
+          "entityName" : "impala-IMPALAD-0bc51c37643c2dd381d12d0aa38f9757",
+          "clusterName" : "cluster",
+          "roleName" : "impala-IMPALAD-0bc51c37643c2dd381d12d0aa38f9757",
+          "roleConfigGroup" : "Executors",
+          "category" : "ROLE",
+          "rackId" : "/default"
+        },
+        "unitNumerators" : [ "seconds" ],
+        "unitDenominators" : [ "seconds" ],
+        "expression" : "SELECT cpu_user_rate / getHostFact(numCores,1)*100 +cpu_system_rate / getHostFact(numCores,1)*100 WHERE entityName = \"impala-IMPALAD-0bc51c37643c2dd381d12d0aa38f9757\" AND category = ROLE",
+        "metricCollectionFrequencyMs" : 60000,
+        "rollupUsed" : "HOURLY"
+      },
+      "data" : [ {
+        "timestamp" : "2021-12-14T17:00:00.000Z",
+        "value" : 16.538356481481905,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T18:00:00.000Z",
+        "value" : 7.844494874797361,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T19:00:00.000Z",
+        "value" : 4.8950063337428,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T20:00:00.000Z",
+        "value" : 4.161115468674231,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T21:00:00.000Z",
+        "value" : 4.256990740740109,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T22:00:00.000Z",
+        "value" : 4.664050925926993,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T23:00:00.000Z",
+        "value" : 4.611122685184657,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T00:00:00.000Z",
+        "value" : 5.372158564815402,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T01:00:00.000Z",
+        "value" : 8.000121527777218,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T02:00:00.000Z",
+        "value" : 15.839004629630058,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T03:00:00.000Z",
+        "value" : 21.656197916666216,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T04:00:00.000Z",
+        "value" : 21.55292245370341,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T05:00:00.000Z",
+        "value" : 23.05706018518551,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T06:00:00.000Z",
+        "value" : 15.621799768518908,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T07:00:00.000Z",
+        "value" : 13.723767361110262,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T08:00:00.000Z",
+        "value" : 16.38316550925959,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T09:00:00.000Z",
+        "value" : 20.599479985035956,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T10:00:00.000Z",
+        "value" : 26.309563360900025,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T11:00:00.000Z",
+        "value" : 23.968481980913033,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T12:00:00.000Z",
+        "value" : 20.169081586448804,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T13:00:00.000Z",
+        "value" : 17.171953870287812,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T14:00:00.000Z",
+        "value" : 16.606261335929872,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T15:00:00.000Z",
+        "value" : 17.86653351175145,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T16:00:00.000Z",
+        "value" : 13.727123842592981,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T17:00:00.000Z",
+        "value" : 10.27829282407415,
+        "type" : "CALCULATED"
+      } ]
+    }, {
+      "metadata" : {
+        "metricName" : "cpu_user_rate / getHostFact(numCores,1)*100 +cpu_system_rate / getHostFact(numCores,1)*100",
+        "entityName" : "Impala Daemon (drcbighdp59.corp.bi.go.id)",
+        "startTime" : "2021-12-14T17:00:00.000Z",
+        "endTime" : "2021-12-15T17:00:00.000Z",
+        "attributes" : {
+          "serviceType" : "IMPALA",
+          "clusterDisplayName" : "DRCBIGHDPCL2",
+          "hostId" : "3c47dcbb-7b11-424f-b9dd-7944c03ce52d",
+          "active" : "true",
+          "serviceDisplayName" : "Impala",
+          "serviceName" : "impala",
+          "roleType" : "IMPALAD",
+          "version" : "CDH 7.1.4",
+          "hostname" : "drcbighdp59.corp.bi.go.id",
+          "entityName" : "impala-IMPALAD-3ed784c09512330a9675a5669e743137",
+          "clusterName" : "cluster",
+          "roleName" : "impala-IMPALAD-3ed784c09512330a9675a5669e743137",
+          "roleConfigGroup" : "Executors",
+          "category" : "ROLE",
+          "rackId" : "/default"
+        },
+        "unitNumerators" : [ "seconds" ],
+        "unitDenominators" : [ "seconds" ],
+        "expression" : "SELECT cpu_user_rate / getHostFact(numCores,1)*100 +cpu_system_rate / getHostFact(numCores,1)*100 WHERE entityName = \"impala-IMPALAD-3ed784c09512330a9675a5669e743137\" AND category = ROLE",
+        "metricCollectionFrequencyMs" : 60000,
+        "rollupUsed" : "HOURLY"
+      },
+      "data" : [ {
+        "timestamp" : "2021-12-14T17:00:00.000Z",
+        "value" : 18.36499942596009,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T18:00:00.000Z",
+        "value" : 8.026780029239045,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T19:00:00.000Z",
+        "value" : 5.114137731481066,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T20:00:00.000Z",
+        "value" : 4.338993055555842,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T21:00:00.000Z",
+        "value" : 4.304560185184933,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T22:00:00.000Z",
+        "value" : 4.62825231481488,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T23:00:00.000Z",
+        "value" : 4.678067129629872,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T00:00:00.000Z",
+        "value" : 5.281076388888323,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T01:00:00.000Z",
+        "value" : 7.875364583333268,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T02:00:00.000Z",
+        "value" : 16.242743055555536,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T03:00:00.000Z",
+        "value" : 23.097621527778156,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T04:00:00.000Z",
+        "value" : 22.965289351852395,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T05:00:00.000Z",
+        "value" : 23.835873842592395,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T06:00:00.000Z",
+        "value" : 16.186869212962105,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T07:00:00.000Z",
+        "value" : 13.654565972222272,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T08:00:00.000Z",
+        "value" : 17.35637731481512,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T09:00:00.000Z",
+        "value" : 23.21676429538084,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T10:00:00.000Z",
+        "value" : 27.7245177093938,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T11:00:00.000Z",
+        "value" : 25.98700372604693,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T12:00:00.000Z",
+        "value" : 22.336261533875103,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T13:00:00.000Z",
+        "value" : 18.734696443456485,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T14:00:00.000Z",
+        "value" : 16.426172317367904,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T15:00:00.000Z",
+        "value" : 18.187962962962317,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T16:00:00.000Z",
+        "value" : 13.06502893518525,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T17:00:00.000Z",
+        "value" : 10.469247685185515,
+        "type" : "CALCULATED"
+      } ]
+    }, {
+      "metadata" : {
+        "metricName" : "cpu_user_rate / getHostFact(numCores,1)*100 +cpu_system_rate / getHostFact(numCores,1)*100",
+        "entityName" : "Impala Daemon (drcbighdp74.corp.bi.go.id)",
+        "startTime" : "2021-12-14T17:00:00.000Z",
+        "endTime" : "2021-12-15T17:00:00.000Z",
+        "attributes" : {
+          "serviceType" : "IMPALA",
+          "clusterDisplayName" : "DRCBIGHDPCL2",
+          "hostId" : "02c32835-5ec2-40fa-b80a-f0fc4bc2a0f4",
+          "active" : "true",
+          "serviceDisplayName" : "Impala",
+          "serviceName" : "impala",
+          "roleType" : "IMPALAD",
+          "version" : "CDH 7.1.4",
+          "hostname" : "drcbighdp74.corp.bi.go.id",
+          "entityName" : "impala-IMPALAD-1f0246252b1080a2a6d2531e509b9431",
+          "clusterName" : "cluster",
+          "roleName" : "impala-IMPALAD-1f0246252b1080a2a6d2531e509b9431",
+          "roleConfigGroup" : "Executors",
+          "category" : "ROLE",
+          "rackId" : "/default"
+        },
+        "unitNumerators" : [ "seconds" ],
+        "unitDenominators" : [ "seconds" ],
+        "expression" : "SELECT cpu_user_rate / getHostFact(numCores,1)*100 +cpu_system_rate / getHostFact(numCores,1)*100 WHERE entityName = \"impala-IMPALAD-1f0246252b1080a2a6d2531e509b9431\" AND category = ROLE",
+        "metricCollectionFrequencyMs" : 60000,
+        "rollupUsed" : "HOURLY"
+      },
+      "data" : [ {
+        "timestamp" : "2021-12-14T17:00:00.000Z",
+        "value" : 13.73457754629662,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T18:00:00.000Z",
+        "value" : 7.0874363425921025,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T19:00:00.000Z",
+        "value" : 4.414137731482225,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T20:00:00.000Z",
+        "value" : 3.8718865740735997,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T21:00:00.000Z",
+        "value" : 3.8885243055560252,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T22:00:00.000Z",
+        "value" : 4.294866898147356,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T23:00:00.000Z",
+        "value" : 4.323379629630464,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T00:00:00.000Z",
+        "value" : 4.882760416665675,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T01:00:00.000Z",
+        "value" : 6.995752314815305,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T02:00:00.000Z",
+        "value" : 13.630775462963086,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T03:00:00.000Z",
+        "value" : 17.963645733640256,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T04:00:00.000Z",
+        "value" : 17.503640046296454,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T05:00:00.000Z",
+        "value" : 18.76352430555562,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T06:00:00.000Z",
+        "value" : 13.043518518518221,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T07:00:00.000Z",
+        "value" : 11.59507523148177,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T08:00:00.000Z",
+        "value" : 13.96409717880664,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T09:00:00.000Z",
+        "value" : 16.656105324074613,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T10:00:00.000Z",
+        "value" : 20.818704498034553,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T11:00:00.000Z",
+        "value" : 19.025339100431133,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T12:00:00.000Z",
+        "value" : 16.204853539242446,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T13:00:00.000Z",
+        "value" : 13.743598995154787,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T14:00:00.000Z",
+        "value" : 12.531670136638327,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T15:00:00.000Z",
+        "value" : 13.662785357686221,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T16:00:00.000Z",
+        "value" : 11.399525462963034,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T17:00:00.000Z",
+        "value" : 9.928802083333855,
+        "type" : "CALCULATED"
+      } ]
+    }, {
+      "metadata" : {
+        "metricName" : "cpu_user_rate / getHostFact(numCores,1)*100 +cpu_system_rate / getHostFact(numCores,1)*100",
+        "entityName" : "Impala Daemon (drcbighdp58.corp.bi.go.id)",
+        "startTime" : "2021-12-14T17:00:00.000Z",
+        "endTime" : "2021-12-15T17:00:00.000Z",
+        "attributes" : {
+          "serviceType" : "IMPALA",
+          "clusterDisplayName" : "DRCBIGHDPCL2",
+          "hostId" : "83a5fd50-e18f-48e8-b612-03f47d7ba253",
+          "active" : "true",
+          "serviceDisplayName" : "Impala",
+          "serviceName" : "impala",
+          "roleType" : "IMPALAD",
+          "version" : "CDH 7.1.4",
+          "hostname" : "drcbighdp58.corp.bi.go.id",
+          "entityName" : "impala-IMPALAD-51a8589cb1137632b7810f1551ca9632",
+          "clusterName" : "cluster",
+          "roleName" : "impala-IMPALAD-51a8589cb1137632b7810f1551ca9632",
+          "roleConfigGroup" : "Executors",
+          "category" : "ROLE",
+          "rackId" : "/default"
+        },
+        "unitNumerators" : [ "seconds" ],
+        "unitDenominators" : [ "seconds" ],
+        "expression" : "SELECT cpu_user_rate / getHostFact(numCores,1)*100 +cpu_system_rate / getHostFact(numCores,1)*100 WHERE entityName = \"impala-IMPALAD-51a8589cb1137632b7810f1551ca9632\" AND category = ROLE",
+        "metricCollectionFrequencyMs" : 60000,
+        "rollupUsed" : "HOURLY"
+      },
+      "data" : [ {
+        "timestamp" : "2021-12-14T17:00:00.000Z",
+        "value" : 15.537922453703317,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T18:00:00.000Z",
+        "value" : 7.728564814815065,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T19:00:00.000Z",
+        "value" : 5.127633101851745,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T20:00:00.000Z",
+        "value" : 4.12640046296346,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T21:00:00.000Z",
+        "value" : 4.40710069444389,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T22:00:00.000Z",
+        "value" : 4.680769675925721,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T23:00:00.000Z",
+        "value" : 4.70014467592598,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T00:00:00.000Z",
+        "value" : 5.310850694444794,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T01:00:00.000Z",
+        "value" : 7.917309027777163,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T02:00:00.000Z",
+        "value" : 15.764054858988679,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T03:00:00.000Z",
+        "value" : 20.71169114620379,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T04:00:00.000Z",
+        "value" : 20.186890783704623,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T05:00:00.000Z",
+        "value" : 20.933336158514347,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T06:00:00.000Z",
+        "value" : 15.229780092592891,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T07:00:00.000Z",
+        "value" : 14.258368055555128,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T08:00:00.000Z",
+        "value" : 16.8857986111112,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T09:00:00.000Z",
+        "value" : 19.317991898148275,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T10:00:00.000Z",
+        "value" : 24.71677083333351,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T11:00:00.000Z",
+        "value" : 22.87116319444437,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T12:00:00.000Z",
+        "value" : 18.655753930549643,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T13:00:00.000Z",
+        "value" : 16.736174768518982,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T14:00:00.000Z",
+        "value" : 14.79806041253342,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T15:00:00.000Z",
+        "value" : 16.410584490740465,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T16:00:00.000Z",
+        "value" : 13.249317129629668,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T17:00:00.000Z",
+        "value" : 11.434467592592327,
+        "type" : "CALCULATED"
+      } ]
+    }, {
+      "metadata" : {
+        "metricName" : "cpu_user_rate / getHostFact(numCores,1)*100 +cpu_system_rate / getHostFact(numCores,1)*100",
+        "entityName" : "Impala Daemon (drcbighdp52.corp.bi.go.id)",
+        "startTime" : "2021-12-14T17:00:00.000Z",
+        "endTime" : "2021-12-15T17:00:00.000Z",
+        "attributes" : {
+          "serviceType" : "IMPALA",
+          "clusterDisplayName" : "DRCBIGHDPCL2",
+          "hostId" : "6fb46c2a-a79e-43dd-974d-229235f7b0ac",
+          "active" : "true",
+          "serviceDisplayName" : "Impala",
+          "serviceName" : "impala",
+          "roleType" : "IMPALAD",
+          "version" : "CDH 7.1.4",
+          "hostname" : "drcbighdp52.corp.bi.go.id",
+          "entityName" : "impala-IMPALAD-a27c82bb4396d70364f7bc85b390e0bd",
+          "clusterName" : "cluster",
+          "roleName" : "impala-IMPALAD-a27c82bb4396d70364f7bc85b390e0bd",
+          "roleConfigGroup" : "Coordinators",
+          "category" : "ROLE",
+          "rackId" : "/default"
+        },
+        "unitNumerators" : [ "seconds" ],
+        "unitDenominators" : [ "seconds" ],
+        "expression" : "SELECT cpu_user_rate / getHostFact(numCores,1)*100 +cpu_system_rate / getHostFact(numCores,1)*100 WHERE entityName = \"impala-IMPALAD-a27c82bb4396d70364f7bc85b390e0bd\" AND category = ROLE",
+        "metricCollectionFrequencyMs" : 60000,
+        "rollupUsed" : "HOURLY"
+      },
+      "data" : [ {
+        "timestamp" : "2021-12-14T17:00:00.000Z",
+        "value" : 10.916678240740886,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T18:00:00.000Z",
+        "value" : 6.257002314814598,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T19:00:00.000Z",
+        "value" : 5.024583333333322,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T20:00:00.000Z",
+        "value" : 2.109508101851976,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T21:00:00.000Z",
+        "value" : 1.7120949074074077,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T22:00:00.000Z",
+        "value" : 1.2125983796295594,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-14T23:00:00.000Z",
+        "value" : 0.9436747685186102,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T00:00:00.000Z",
+        "value" : 1.304537037037032,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T01:00:00.000Z",
+        "value" : 2.470376157407305,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T02:00:00.000Z",
+        "value" : 8.50115917455223,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T03:00:00.000Z",
+        "value" : 13.938574708573668,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T04:00:00.000Z",
+        "value" : 12.999045484599783,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T05:00:00.000Z",
+        "value" : 13.899690247998272,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T06:00:00.000Z",
+        "value" : 10.071534695208634,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T07:00:00.000Z",
+        "value" : 8.004888589487436,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T08:00:00.000Z",
+        "value" : 12.245237268518396,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T09:00:00.000Z",
+        "value" : 14.194206648075983,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T10:00:00.000Z",
+        "value" : 16.7138831018519,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T11:00:00.000Z",
+        "value" : 15.459965277777684,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T12:00:00.000Z",
+        "value" : 11.981857638888968,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T13:00:00.000Z",
+        "value" : 13.827112268518652,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T14:00:00.000Z",
+        "value" : 14.288170082232398,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T15:00:00.000Z",
+        "value" : 14.385154281975716,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T16:00:00.000Z",
+        "value" : 8.60010416666652,
+        "type" : "CALCULATED"
+      }, {
+        "timestamp" : "2021-12-15T17:00:00.000Z",
+        "value" : 5.739861111111235,
+        "type" : "CALCULATED"
+      } ]
+    } ],
+    "warnings" : [ ],
+    "timeSeriesQuery" : "select cpu_user_rate / getHostFact(numCores,1)*100 +cpu_system_rate / getHostFact(numCores,1)*100 where roleType=impalad and clusterName=cluster"
+  } ]
+}
